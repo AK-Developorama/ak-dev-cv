@@ -1,0 +1,67 @@
+.timeline {
+    padding: 0 !important;
+}
+
+/* Header */
+
+
+
+/* Header title */
+
+.timeline .timeline_header {
+    padding-top: 0px;
+
+}
+
+.timeline .timeline_firstItem {
+    min-height: 80px !important; 
+}
+
+/* This edits the line in the middle and its lenght*/
+
+.timeline .MuiTimelineItem-root {
+    min-height: 30px !important; 
+}
+
+
+/* Delete this one below if you don't want it centered */
+
+.timeline .MuiTimelineItem-missingOppositeContent:before {
+    display: none;
+}
+
+.timeline .timeline_dot_header {
+    color: black !important;
+    background-color: rgba(128, 128, 128, 0.363) !important;
+    font-size: medium !important;
+    padding: 10px !important;
+
+}
+
+/* smaller dots */
+
+/* .timeline .timeline_dot {
+    color: rgb(192, 8, 8) !important;
+    border-color: var(--main-color) !important;
+    padding: 2px !important;
+} */
+
+
+.timeline .MuiTimelineConnector-root {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.timeline .timeline_dot_header > .MuiSvgIcon-root {
+    font-size: 20px;
+    color: white;
+}
+
+.timeline .separator_padding {
+    padding-left: 15.5px !important;    
+}
+
+.timeline .timeline_content {
+    padding-top: 0px !important;
+    margin-bottom: 20px;  
+}
+
