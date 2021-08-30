@@ -5,12 +5,11 @@ import CustomTimeline, {
   CustomTimelineSeparator,
 } from "../Timeline/CustTimeline";
 import AdjustIcon from "@material-ui/icons/Adjust";
-import {TimelineItem} from "@material-ui/lab";
+import cvData from "../../utils/cvData";
+import TimelineItem from "@material-ui/lab/TimelineItem";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import CustomButton from "../Button/Button";
 import GetAppIcon from "@material-ui/icons/GetApp";
-
-import cvData from "../../utils/cvData";
 import "./Profile.css";
 
 
