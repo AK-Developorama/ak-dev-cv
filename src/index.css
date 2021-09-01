@@ -2,6 +2,14 @@
   --app-base: #e4e1e1;
   --main-color: white;
   --text-color: #616161;
+
+  --primaryColor: #4e8eb0;
+  --footerColor: rgb(91, 172, 216);
+  --navColor1: #4e8eb0d5;
+  --secondaryColor: #55a7d3;
+  --ternaryColor: rgb(109, 161, 190);
+  --highlightColor: #d15c5c;
+  --highlightHover: #d38585;
 }
 
 * {
@@ -18,7 +26,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #e4e1e1;
+  background-color: var( --main-color)!important;
+  color: var(--text-color);
 }
 
 code {
