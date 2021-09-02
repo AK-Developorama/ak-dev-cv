@@ -1,15 +1,13 @@
 import React from "react";
 import { Container, Grid } from "@material-ui/core";
- import Profile from "./components/Profile/Profile";
+import Profile from "./components/Profile/Profile";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Portfolio from "./Pages/Portfolio/Portfolio";
-import Cv from "./Pages/Cv/Cv"; 
+import Cv from "./Pages/Cv/Cv";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
- 
-  
 function App() {
   return (
     <Container className={"top_60"}>
@@ -20,14 +18,16 @@ function App() {
         <Grid item xs>
           <Router>
             <Header />
-            <Switch>
-              <Route path="/portfolio">
-                <Portfolio />
-              </Route>
-              <Route path="/">
-                <Cv />
-              </Route>
-            </Switch>
+            <div className="main-content">
+              <Switch>
+                <Route path="/portfolio">
+                  <Portfolio />
+                </Route>
+                <Route path="/">
+                  <Cv />
+                </Route>
+              </Switch>
+            </div>
           </Router>
 
           <Footer />
@@ -35,8 +35,6 @@ function App() {
       </Grid>
     </Container>
   );
-} 
-
+}
 
 export default App;
- 

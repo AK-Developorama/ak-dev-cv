@@ -2,7 +2,6 @@
   background-color: white !important;
   padding: 0 22px 0 0 !important ;
   border-radius: 6px !important;
-  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.322) !important;
 }
 
 .header .header_navlink {
@@ -31,7 +30,6 @@
   align-items: center;
   border-top-left-radius: inherit;
   border-bottom-left-radius: inherit;
-  border-radius: 6px !important;
 }
 
 .header .header_left {
@@ -46,5 +44,5 @@
 .header .header_right > a > .MuiSvgIcon-root {
   font-size: 3vh !important;
   margin-right: 1vh !important;
-  color: rgb(243, 7, 7) !important;
+  color: var(--primaryColor) !important;
 }

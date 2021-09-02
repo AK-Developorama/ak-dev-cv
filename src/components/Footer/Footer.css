@@ -1,0 +1,25 @@
+.footer {
+  background-color: var(--primaryColor);
+  color: var(--footerText) !important;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 2vh;
+ padding: 2vh 3vh;
+}
+
+.footer .footer_copyright {
+  font-size: 0.85em;
+  text-align: end;
+  color: var(--footerText) !important;
+}
+
+.footer .footer_copyright > a {
+    text-decoration: none;
+    color: var( --main-color);
+}
+
+.footer .footer.name {
+    font-size: 0.85em;
+}

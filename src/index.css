@@ -1,15 +1,21 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+
 :root {
   --app-base: #e4e1e1;
   --main-color: white;
-  --text-color: #616161;
+  --title-text-color: #616161;
+  --text-color: #888;
 
   --primaryColor: #4e8eb0;
   --footerColor: rgb(91, 172, 216);
+  --footerText: rgba(255, 255, 255, 0.575);
   --navColor1: #4e8eb0d5;
   --secondaryColor: #55a7d3;
   --ternaryColor: rgb(109, 161, 190);
   --highlightColor: #d15c5c;
   --highlightHover: #d38585;
+  --timelineColor: #888;
 }
 
 * {
@@ -17,20 +23,31 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Raleway", sans-serif !important;
+  font-size: 0.875rem!important;
+  font-weight: 400 !important;
+  line-height: 2em !important;
+  letter-spacing: 0.05em !important;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
+  overflow-x: hidden;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: var( --main-color)!important;
-  color: var(--text-color);
+  background-color: whitesmoke !important;
+  color: var(--text-color) !important;
+}
+
+.MuiTypography-body1,
+.MuiTypography-body2 {
+  font-family: "Raleway", sans-serif !important;
+  font-size: 0.875rem!important;
+  font-weight: 400 !important;
+  line-height: 2em !important;
+  letter-spacing: 0.05em !important;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: "Raleway", sans-serif !important;
 }
