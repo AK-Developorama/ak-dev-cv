@@ -1,8 +1,10 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from "react";
-import FacebookIcon from '@material-ui/icons/Facebook';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import GitHubIcon from '@material-ui/icons/GitHub';
+import FacebookIcon from "@material-ui/icons/Facebook";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import SportsEsportsIcon from "@material-ui/icons/SportsEsports";
+import { Face } from "@material-ui/icons";
 
 export default {
   name: "Aliz Kopenetz",
@@ -79,24 +81,169 @@ export default {
     },
   ],
 
+  software: [
+    {
+      icon: <SportsEsportsIcon />,
+      title: "UNREAL ENGINE",
+      experience: " 2 years",
+      description:
+        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+    },
+    {
+      icon: <SportsEsportsIcon />,
+      title: "UNREAL ENGINE",
+      experience: " 2 years",
+      description:
+        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+    },
+    {
+      icon: <SportsEsportsIcon />,
+      title: "UNREAL ENGINE",
+      experience: " 2 years",
+      description:
+        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+    },
+
+    {
+      icon: <SportsEsportsIcon />,
+      title: "UNREAL ENGINE",
+      experience: " 2 years",
+      description:
+        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+    },
+    {
+      icon: <SportsEsportsIcon />,
+      title: "UNREAL ENGINE",
+      experience: " 2 years",
+      description:
+        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+    },
+    {
+      icon: <SportsEsportsIcon />,
+      title: "UNREAL ENGINE",
+      experience: " 2 years",
+      description:
+        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+    },
+    {
+      icon: <SportsEsportsIcon />,
+      title: "UNREAL ENGINE",
+      experience: " 2 years",
+      description:
+        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+    },
+    {
+      icon: <SportsEsportsIcon />,
+      title: "UNREAL ENGINE",
+      experience: " 2 years",
+      description:
+        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+    },
+    {
+      icon: <SportsEsportsIcon />,
+      title: "UNREAL ENGINE",
+      experience: " 2 years",
+      description:
+        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+    },
+  ],
+
   skills: [
     {
-      title: "UNREAL ENGINE",
+      title: "scripting",
       experience: " 2 years",
-      description:
-        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+      description: ["react", "js", "unreal engine"],
     },
     {
-      title: "UNREAL ENGINE",
+      title: "problem solving",
       experience: " 2 years",
-      description:
-        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+      description: ["react", "js", "unreal engine"],
     },
     {
-      title: "UNREAL ENGINE",
+      title: "Efficiency",
       experience: " 2 years",
-      description:
-        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+      description: ["react", "js", "unreal engine"],
+    },
+    {
+      title: "source control",
+      experience: " 2 years",
+      description: ["react", "js", "unreal engine"],
+    },
+  ],
+
+  portfolio: [
+    {
+      tag: "pic1",
+      images: [
+        "https://res.cloudinary.com/dwtu8mm8m/image/upload/v1630064085/images/banner_fdc67y.jpg",
+        "https://res.cloudinary.com/dwtu8mm8m/image/upload/v1630251342/logo1_xgidqs.jpg",
+      ],
+      title: "project1",
+      caption: "a descr",
+      description: "blaaalbvlasfdsdfgdgfdgdf",
+      links: [{ link1: "", icon: <FacebookIcon /> }],
+    },
+    {
+      tag: "pic2",
+      images: [
+        "https://res.cloudinary.com/dwtu8mm8m/image/upload/v1630064085/images/banner_fdc67y.jpg",
+        "https://res.cloudinary.com/dwtu8mm8m/image/upload/v1630251342/logo1_xgidqs.jpg",
+      ],
+      title: "project2",
+      caption: "a descr2",
+      description: "blaaalbvlasfdgdgfdfgdgdf",
+      links: [
+        { link1: "https://www.google.co.uk/", icon: <FacebookIcon /> },
+        {
+          link1: "https://github.com/AK-developorama?tab=repositories",
+          icon: <FacebookIcon />,
+        },
+        { link1: "", icon: <FacebookIcon /> },
+      ],
+    },
+    {
+      tag: "pic3",
+      images: [
+        "https://res.cloudinary.com/dwtu8mm8m/image/upload/v1630064085/images/banner_fdc67y.jpg",
+        "https://res.cloudinary.com/dwtu8mm8m/image/upload/v1630251342/logo1_xgidqs.jpg",
+      ],
+      title: "project3",
+      caption: "a descdfdfdfr",
+
+      description: "blaaalbvlasfdsdfgdgfdfdf",
+      links: [
+        { link1: "", icon: <FacebookIcon /> },
+        {
+          link1: "https://github.com/AK-developorama?tab=repositories",
+          icon: <FacebookIcon />,
+        },
+        { link1: "", icon: <FacebookIcon /> },
+      ],
+    },
+    {
+      tag: "pic4",
+      images: [
+        "https://res.cloudinary.com/dwtu8mm8m/image/upload/v1630064085/images/banner_fdc67y.jpg",
+        "https://res.cloudinary.com/dwtu8mm8m/image/upload/v1630251342/logo1_xgidqs.jpg",
+      ],
+      title: "project4",
+      caption: "a descrfdsfsfsf",
+
+      description: "blaaalbvlasfdsdfgdgfdgdf",
+      links: [
+        {
+          link1: "https://github.com/AK-developorama?tab=repositories",
+          icon: <FacebookIcon />,
+        },
+        {
+          link1: "https://github.com/AK-developorama?tab=repositories",
+          icon: <FacebookIcon />,
+        },
+        {
+          link1: "https://github.com/AK-developorama?tab=repositories",
+          icon: <FacebookIcon />,
+        },
+      ],
     },
   ],
 };

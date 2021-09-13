@@ -8,6 +8,11 @@
   margin-top: 10vh !important;
 }
 
+
+.mb_20 {
+  margin-bottom: 3vh !important;
+}
+
 .mb_30 {
   margin-bottom: 5vh !important;
 }
@@ -18,6 +23,16 @@
 
 .pb_45 {
   padding-bottom: 3vh !important;
+}
+
+.pt_45{
+  padding-bottom: 3vh !important;
+
+}
+
+.pb_50 {
+    padding: 3vh !important;
+
 }
 
 @media (max-width: 991px) {
@@ -58,4 +73,15 @@
   opacity: 0.4;
   left: 0;
   background-color: var(--primaryColor);
+}
+
+.section{
+ padding-left: 3vh;
+  padding-right: 3vh;
+
+}
+
+
+.graybg{
+  background-color: rgb(243, 194, 211);
 }

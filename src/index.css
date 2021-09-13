@@ -47,7 +47,14 @@ body {
   line-height: 2em !important;
   letter-spacing: 0.05em !important;
 }
+.MuiTypography-h6{
+    font-family: "Raleway", sans-serif !important;
+  font-size: 0.7rem!important;
+  font-weight: 600 !important;
+  line-height: 2em !important;
+  letter-spacing: 0.05em !important;
 
+}
 code {
   font-family: "Raleway", sans-serif !important;
 }

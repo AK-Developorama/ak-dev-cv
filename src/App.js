@@ -16,19 +16,31 @@ function App() {
           <Profile />
         </Grid>
         <Grid item xs>
-          <Router>
+
+        <Router>
+
+      
+
+          <Header />
+          <div className="main-content">
+            <Cv />
+          </div>
+
+          </Router>
+
+          {/* <Router>
             <Header />
             <div className="main-content">
               <Switch>
-                <Route path="/portfolio">
-                  <Portfolio />
+                <Route path="/">
+                  <Cv />
                 </Route>
                 <Route path="/">
                   <Cv />
                 </Route>
               </Switch>
             </div>
-          </Router>
+          </Router> */}
 
           <Footer />
         </Grid>

@@ -20,8 +20,7 @@ import {
 import { Link, NavLink, withRouter } from "react-router-dom";
 import cvData from "../../utils/cvData";
 import CustomButton from "../Button/Button";
-import './Header.css';
-
+import "./Header.css";
 
 const Header = (props) => {
   const pathName = props?.location?.pathname;
@@ -29,7 +28,7 @@ const Header = (props) => {
   return (
     <Navbar bg="light" expand="lg" sticky="top" className="header">
       {/* HOME LINK */}
-      <Nav.Link as={NavLink} to="/" className='header_navlink'>
+      <Nav.Link as={NavLink} to="/" className="header_navlink">
         <Navbar.Brand className="header_home">
           <HomeRounded />
         </Navbar.Brand>
@@ -51,17 +50,13 @@ const Header = (props) => {
 
           {/* Portfolio Link */}
 
-          <Nav.Link
-            as={NavLink}
-            to="/portfolio"
-            className={
-              pathName === "/portfolio" ? "header_link_active" : "header_link"
-            }
-          >
-            Sample Works
-          </Nav.Link>
-        </Nav>
+          <div className="portfolioLink">
+            <a href="https://cdpn.io/developorama/debug/2aa033ef01d99cfb25899bf676524657">
+              PORTFOLIO
+            </a>
+          </div>
 
+        </Nav>
         <div className="header_right">
           {Object.keys(cvData.socials).map((key) => (
             <a href={cvData.socials[key].link} target="_blank">
