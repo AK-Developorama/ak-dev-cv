@@ -1,65 +1,61 @@
 .timeline {
-    padding: 0 !important;
+  padding: 0 !important;
 }
 
 /* Header title */
 
 .timeline .timeline_header {
-    padding-top: 0px;
-
+  padding-top: 0.6vh;
+  font-size: 2vh !important;
+  font-weight: 600 !important;
+  position: relative !important;
+  margin: 0 !important;
+  color: var(--title-text-color);
 }
 
 .timeline .timeline_firstItem {
-    min-height: 80px !important; 
+  min-height: 80px !important;
 }
 
 /* This edits the line in the middle and its lenght*/
 
 .timeline .MuiTimelineItem-root {
-    min-height: 30px !important; 
+  min-height: 30px !important;
 }
-
 
 /* Delete this one below if you don't want it centered */
 
 .timeline .MuiTimelineItem-missingOppositeContent:before {
-    display: none;
+  display: none;
 }
 
 .timeline .timeline_dot_header {
-    color: black !important;
-    background-color: rgba(128, 128, 128, 0.363) !important;
-    font-size: medium !important;
-    padding: 10px !important;
-
+  font-size: medium !important;
+  padding: 10px !important;
+  background-color: var( --buttonsColor);
 }
 
 /* smaller dots */
 
-/* .timeline .timeline_dot {
-    color: rgb(192, 8, 8) !important;
-    border-color: var(--main-color) !important;
+.timeline .timeline_dot {
+    border-color:  var( --buttonsColor);
     padding: 2px !important;
-} */
-
+}
 
 .timeline .MuiTimelineConnector-root {
-    background-color: whitesmoke !important;
-    
-
+  background-color: var( --connectorsColor);
 }
 
 .timeline .timeline_dot_header > .MuiSvgIcon-root {
-    font-size: 20px;
-    color: white;
+  font-size: 20px;
+  color: var(--main-color);
 }
 
 .timeline .separator_padding {
-    padding-left: 15.5px !important;    
+  padding-left: 15.5px !important;
 }
 
 .timeline .timeline_content {
-    padding-top: 0px !important;
-    margin-bottom: 20px;  
+  padding-top: 0px !important;
+  margin-bottom: 20px;
 }
-

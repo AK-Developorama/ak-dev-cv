@@ -9,12 +9,16 @@ import { Face } from "@material-ui/icons";
 export default {
   name: "Aliz Kopenetz",
   title: "Front End Developer",
+  phone: "+447397509049",
   email: "aliz.kopenetz@gmail.com",
-  DOB: "03/06/1992",
+  languages: "English, French, German, Romanian, Hungarian",
+  website:
+    "https://cdpn.io/developorama/debug/2aa033ef01d99cfb25899bf676524657",
+  address: "London, UK",
   socials: {
     GitHub: {
       link: "https://github.com/AK-developorama?tab=repositories",
-      text: "MyPage",
+      text: "GitHub",
       icon: <GitHubIcon />,
     },
     Facebook: {
@@ -29,76 +33,90 @@ export default {
     },
   },
   about:
-    "Where does it come from?Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32.",
+    "Hello! I am a Front End Developer with a strong background in digital product creation, bridging the disciplines of digital architecture, 3D modelling and VR. I am very determined to devote my full passion to Web Development in the coming years, to create smoothly functioning and also visually pleasing web apps.",
 
   experiences: [
     {
-      title: "Mhl",
-      date: "2016 - Present",
-      description:
-        "Where does it come from?Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 ",
+      title: "Personal Web Development Project",
+      date: "2021/07 - Present",
+      description: "Face Detect App - Using PostgreSQL, API calls to Clarifai",
     },
     {
-      title: "3d software teaching assistant",
-      date: "2016 - 2012",
+      title: "Front End Developer",
+      date: "2020/04 - 2020/08",
       description:
-        "Where does it come from?Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 ",
+        "5 Large Websites: Anna dog training site, Own website, Airbnb clone sent to Shelter charity as a landlord registry competition",
     },
     {
-      title: "cal architects",
-      date: "2016 - 2012",
+      title: "Mhl - Interactive Unreal Engine Designer",
+      date: "2016/10 - Present | London, UK",
       description:
-        "Where does it come from?Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 ",
+        " I worked with Unreal Engine to represent architectural projects in Virtual Reality. ",
     },
     {
-      title: "sheffield uni digital modelling teaching assistant",
-      date: "2014 - 2012 ",
+      title: "Mhl - Architectural Visualiser",
+      date: "2016/10 - Present | London, UK",
       description:
-        "Where does it come from?Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 ",
+        "A very interdisciplinary job where among other roles script in Max Script - a Python based language that is optimising and automating our 3D software. I automated a very repetitive task cutting our work time by 60%-80%, and simplified our workflow for the in-house 3D model texturing process. Have project manager roles dealing directly with our clients and also taught team-mates skills I had more experience in",
+    },
+    {
+      title: "Kent University - Digital Arts Teaching Assistant",
+      date: "2015 - 2016 | Canterbury, UK",
+      description:
+        "Helped students use Photoshop and 3DsMax at a high level, showing them scripting possibilities and task automation.",
+    },
+    {
+      title: "CAL Architects",
+      date: "2014 - 2015 | Leeds, UK",
+      description: "My main role was the creation of digital models.",
+    },
+    {
+      title:
+        "Sheffield University - Digital Arts Software Teaching Assistant (part-time)",
+      date: "2011 - 2014 | Sheffield, UK",
+      description:
+        "This job helped me discover my passion for automation and going beyond conventional use of Photoshop and 3dsMax, while guiding others to discovering these exciting features.",
     },
   ],
 
   education: [
     {
-      title: "ZTM",
-      date: "2020 - Present",
-      description: ".....",
+      title: "Zero To Mastery Academy",
+      date: "2018 - Present | Online",
+      description:
+        "Online coding academy where I learnt the main front end development languages, like JavaScript, HTML and also libraries like React.",
     },
     {
-      title: "Kent Univ",
-      date: "2016 - ",
-      description: ".....",
+      title: "Kent University",
+      date: "2015 - 2016 | Canterbury, UK",
+      description: "MA in Architectural Visualisation",
     },
     {
-      title: "sheffield uni",
-      date: "2016 - ",
-      description: ".....",
-    },
-    {
-      title: "sheffield uni digital modelling teaching assistant",
-      date: "2016 - ",
-      description: ".....",
+      title: "Sheffield University",
+      date: "2011 - 2014 | Sheffield, UK",
+      description: "BA in Architecture",
     },
   ],
 
   software: [
     {
       icon: <SportsEsportsIcon />,
-      title: "UNREAL ENGINE",
+      title: "HTML",
       experience: " 2 years",
       description:
         "A C++ based game engine in which I present the experience of living in future architectural projects.",
     },
     {
       icon: <SportsEsportsIcon />,
-      title: "UNREAL ENGINE",
-      experience: " 2 years",
+      title: "CSS",
+      experience:
+        "Currently learning Sass to simplify and speed up CSS writing. Experience: 2 years.",
       description:
-        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+        "Currently learning Sass to simplify and speed up CSS writing. Experience: 2 years.",
     },
     {
       icon: <SportsEsportsIcon />,
-      title: "UNREAL ENGINE",
+      title: "JAVASCRIPT",
       experience: " 2 years",
       description:
         "A C++ based game engine in which I present the experience of living in future architectural projects.",
@@ -106,7 +124,21 @@ export default {
 
     {
       icon: <SportsEsportsIcon />,
-      title: "UNREAL ENGINE",
+      title: "REACT",
+      experience: " 2 years",
+      description:
+        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+    },
+    {
+      icon: <SportsEsportsIcon />,
+      title: "POSTGRESQL",
+      experience: " 2 years",
+      description:
+        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+    },
+    {
+      icon: <SportsEsportsIcon />,
+      title: "DEV TOOLS",
       experience: " 2 years",
       description:
         "A C++ based game engine in which I present the experience of living in future architectural projects.",
@@ -120,28 +152,13 @@ export default {
     },
     {
       icon: <SportsEsportsIcon />,
-      title: "UNREAL ENGINE",
-      experience: " 2 years",
-      description:
-        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+      title: "3ds Max",
+      experience: " 9 years",
+      description: "",
     },
     {
       icon: <SportsEsportsIcon />,
-      title: "UNREAL ENGINE",
-      experience: " 2 years",
-      description:
-        "A C++ based game engine in which I present the experience of living in future architectural projects.",
-    },
-    {
-      icon: <SportsEsportsIcon />,
-      title: "UNREAL ENGINE",
-      experience: " 2 years",
-      description:
-        "A C++ based game engine in which I present the experience of living in future architectural projects.",
-    },
-    {
-      icon: <SportsEsportsIcon />,
-      title: "UNREAL ENGINE",
+      title: "PHOTOSHOP",
       experience: " 2 years",
       description:
         "A C++ based game engine in which I present the experience of living in future architectural projects.",
@@ -160,12 +177,19 @@ export default {
       description: ["react", "js", "unreal engine"],
     },
     {
-      title: "Efficiency",
+      title: "automating",
+      experience: " 2 years",
+      description: [
+        "I automated a very long and arguably tedious task for my team using Render Docs and Google Maps ",
+      ],
+    },
+    {
+      title: "source control",
       experience: " 2 years",
       description: ["react", "js", "unreal engine"],
     },
     {
-      title: "source control",
+      title: "SOURCE CONTROL",
       experience: " 2 years",
       description: ["react", "js", "unreal engine"],
     },

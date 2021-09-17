@@ -2,6 +2,7 @@
   background-color: white !important;
   padding: 0 22px 0 0 !important ;
   border-radius: 6px !important;
+  letter-spacing: 0.11em !important;
 }
 
 .header .header_navlink {
@@ -9,8 +10,8 @@
 }
 
 .header .header_link {
-  font-weight: 500;
-  color: var(--text-color) !important;
+  font-weight: 500 !important;
+  color: var(--title-text-color) !important;
 }
 
 .header .header_link:hover {
@@ -18,18 +19,24 @@
 }
 
 .header .header_link_active {
-  font-weight: 500;
+  font-weight: 600;
   color: var(--primaryColor) !important;
 }
 
 .header .header_home {
   background-color: var(--primaryColor);
+  color: var(--main-color);
   padding: 2vh;
   display: flex;
   justify-content: center;
   align-items: center;
   border-top-left-radius: inherit;
   border-bottom-left-radius: inherit;
+}
+
+.header .header_home:hover {
+  background-color: var(--ternaryColor) !important;
+  color: var(--main-color);
 }
 
 .header .header_left {
@@ -47,7 +54,24 @@
   color: var(--primaryColor) !important;
 }
 
+/* :hover {
+  color: var(--ternaryColor) !important;
+} */
 
-.portfolioLink{
-  
+.portfolioLink {
+  font-weight: 500 !important;
+  color: var(--title-text-color) !important;
+  padding-left: 0.5rem !important;
+  text-decoration: none;
+}
+
+.portfolioLink:hover {
+  font-weight: 600 !important;
+  color: var(--primaryColor) !important;
+}
+
+.portfolioLink:active,
+.portfolioLink:focus {
+  font-weight: 600 !important;
+  color: var(--primaryColor) !important;
 }

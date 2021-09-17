@@ -3,6 +3,16 @@
   white-space: pre-line !important;
 }
 
+/* work experience */
+
+.timeline_title{
+font-weight: 700!important;
+}
+
+.timeline_description{
+  margin-top: 1vh!important;
+}
+
 /* Software Section */
 
 .software {
@@ -36,8 +46,8 @@
 }
 
 .skill .skill_title {
-  line-height: 2vh !important;
-}
+/*   line-height: 2vh !important;
+ */}
 
 .skill .skill_description {
   display: flex;
@@ -46,7 +56,7 @@
 }
 
 .skill .skill_description .timeline_dot {
-  border-color: brown !important;
+  border-color: var(--title-text-color) !important;
   padding: 0.2vh !important;
   margin-right: 1vh !important;
 }

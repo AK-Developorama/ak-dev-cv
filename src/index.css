@@ -15,7 +15,8 @@
   --ternaryColor: rgb(109, 161, 190);
   --highlightColor: #d15c5c;
   --highlightHover: #d38585;
-  --timelineColor: #888;
+  --buttonsColor: #bdbdbd;
+  --connectorsColor: #e6e4e4;
 }
 
 * {
@@ -24,7 +25,7 @@
 
 body {
   font-family: "Raleway", sans-serif !important;
-  font-size: 0.875rem!important;
+  font-size: 0.875rem !important;
   font-weight: 400 !important;
   line-height: 2em !important;
   letter-spacing: 0.05em !important;
@@ -42,19 +43,38 @@ body {
 .MuiTypography-body1,
 .MuiTypography-body2 {
   font-family: "Raleway", sans-serif !important;
-  font-size: 0.875rem!important;
   font-weight: 400 !important;
   line-height: 2em !important;
-  letter-spacing: 0.05em !important;
+  font-size: 0.875rem !important;
+  letter-spacing: 0.11em !important;
 }
-.MuiTypography-h6{
-    font-family: "Raleway", sans-serif !important;
-  font-size: 0.7rem!important;
+
+/* Titles: */
+
+.MuiTypography-h6 {
+  font-family: "Raleway", sans-serif !important;
+  font-size: 0.7rem !important;
   font-weight: 600 !important;
   line-height: 2em !important;
-  letter-spacing: 0.05em !important;
+  letter-spacing: 0.11em !important;
+}
+
+.MuiTypography-caption{
+    font-family: "Raleway", sans-serif !important;
+
 
 }
 code {
   font-family: "Raleway", sans-serif !important;
 }
+
+/* for titles
+
+letter-spacing: 0.11em;
+line-height: 3.65em;
+
+margin for text paragraphs:
+
+margin-bottom: 3vh !important;
+
+*/

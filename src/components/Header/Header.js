@@ -51,11 +51,14 @@ const Header = (props) => {
           {/* Portfolio Link */}
 
           <div className="portfolioLink">
-            <a href="https://cdpn.io/developorama/debug/2aa033ef01d99cfb25899bf676524657">
+            <a
+              className="portfolioLink"
+
+              href="https://cdpn.io/developorama/debug/2aa033ef01d99cfb25899bf676524657"
+            >
               PORTFOLIO
             </a>
           </div>
-
         </Nav>
         <div className="header_right">
           {Object.keys(cvData.socials).map((key) => (
