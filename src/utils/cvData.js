@@ -8,7 +8,7 @@ import { Face } from "@material-ui/icons";
 
 export default {
   name: "Aliz Kopenetz",
-  title: "Front End Developer",
+  title: "Curriculum vitae",
   phone: "+447397509049",
   email: "aliz.kopenetz@gmail.com",
   languages: "English, French, German, Romanian, Hungarian",
@@ -51,19 +51,19 @@ export default {
       title: "Mhl - Interactive Unreal Engine Designer",
       date: "2016/10 - Present | London, UK",
       description:
-        " I worked with Unreal Engine to represent architectural projects in Virtual Reality. ",
+        " (no(I)) worked with Unreal Engine to represent architectural projects in Virtual Reality. ",
     },
     {
       title: "Mhl - Architectural Visualiser",
       date: "2016/10 - Present | London, UK",
       description:
-        "A very interdisciplinary job where among other roles script in Max Script - a Python based language that is optimising and automating our 3D software. I automated a very repetitive task cutting our work time by 60%-80%, and simplified our workflow for the in-house 3D model texturing process. Have project manager roles dealing directly with our clients and also taught team-mates skills I had more experience in",
+        "A very interdisciplinary job where among other roles scripted in Max Script - a Python based language that is optimising and automating our 3D software. I automated a very repetitive task cutting our work time by 60%-80%, and simplified our workflow for the in-house 3D model texturing process. Have project manager roles dealing directly with our clients and also taught team-mates skills I had more experience in",
     },
     {
-      title: "Kent University - Digital Arts Teaching Assistant",
+      title: "Kent University - 3D Modelling Teaching Assistant",
       date: "2015 - 2016 | Canterbury, UK",
       description:
-        "Helped students use Photoshop and 3DsMax at a high level, showing them scripting possibilities and task automation.",
+        "Helped students use Photoshop and 3DsMax at an advanced level, showing them scripting possibilities and task automation.",
     },
     {
       title: "CAL Architects",
@@ -75,7 +75,7 @@ export default {
         "Sheffield University - Digital Arts Software Teaching Assistant (part-time)",
       date: "2011 - 2014 | Sheffield, UK",
       description:
-        "This job helped me discover my passion for automation and going beyond conventional use of Photoshop and 3dsMax, while guiding others to discovering these exciting features.",
+        "Automated thru scripts Photoshop and 3dsMax going beyond their conventional uses among architects.  Taught others these exciting extra features.",
     },
   ],
 
@@ -103,52 +103,44 @@ export default {
       icon: <SportsEsportsIcon />,
       title: "HTML",
       experience: " 2 years",
-      description:
-        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+      description: "",
     },
     {
       icon: <SportsEsportsIcon />,
       title: "CSS",
-      experience:
-        "Currently learning Sass to simplify and speed up CSS writing. Experience: 2 years.",
-      description:
-        "Currently learning Sass to simplify and speed up CSS writing. Experience: 2 years.",
+      experience: "",
+      description: "",
     },
     {
       icon: <SportsEsportsIcon />,
       title: "JAVASCRIPT",
       experience: " 2 years",
-      description:
-        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+      description: "",
     },
 
     {
       icon: <SportsEsportsIcon />,
       title: "REACT",
       experience: " 2 years",
-      description:
-        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+      description: "",
     },
     {
       icon: <SportsEsportsIcon />,
       title: "POSTGRESQL",
       experience: " 2 years",
-      description:
-        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+      description: "",
     },
     {
       icon: <SportsEsportsIcon />,
       title: "DEV TOOLS",
       experience: " 2 years",
-      description:
-        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+      description: "",
     },
     {
       icon: <SportsEsportsIcon />,
       title: "UNREAL ENGINE",
       experience: " 2 years",
-      description:
-        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+      description: "",
     },
     {
       icon: <SportsEsportsIcon />,
@@ -160,8 +152,7 @@ export default {
       icon: <SportsEsportsIcon />,
       title: "PHOTOSHOP",
       experience: " 2 years",
-      description:
-        "A C++ based game engine in which I present the experience of living in future architectural projects.",
+      description: "",
     },
   ],
 

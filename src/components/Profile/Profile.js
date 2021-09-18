@@ -1,4 +1,4 @@
-import { Typography, Grid } from "@material-ui/core";
+import { Typography, Grid, Icon } from "@material-ui/core";
 import React from "react";
 import AdjustIcon from "@material-ui/icons/Adjust";
 import TimelineItem from "@material-ui/lab/TimelineItem";
@@ -51,30 +51,59 @@ const Profile = () => {
         <Typography className="title_jobrole">{cvData.title}</Typography>
       </div>
 
-      <figure className="profile_image">
+      {/* <figure className="profile_image">
         <img
           src="https://assets.codepen.io/6161159/squaredcvpic.jpg"
           alt=""
           title="Lorem ipsum dolor sit amet"
         />
-      </figure>
+      </figure> */}
 
       <div className="profile_information">
-        <CustomTimeline icon={<AdjustIcon />}>
-          
-          {/* <CustomTimelineItem title="E" text={cvData.email} />
+        <ul>
+          <li>{cvData.email}</li>
+        </ul>
+        {/*    <CustomTimeline>
+          <CustomTimelineItem title="E" text={cvData.email} />
           <CustomTimelineItem title="T" text={cvData.phone} />
           <CustomTimelineItem title="L" text={cvData.languages} />
-          <CustomTimelineItem title="A" text={cvData.address} /> */}
-          {/* {Object.keys(cvData.socials).map((key) => (
+          <CustomTimelineItem title="A" text={cvData.address} />
+          {Object.keys(cvData.socials).map((key) => (
             <CustomTimelineItem
-            
               text={cvData.socials[key].text}
               link={cvData.socials[key].link}
             />
-          ))} */}
-          
-        </CustomTimeline>
+          ))}
+        </CustomTimeline> */}
+
+        {/* Software Skills */}
+        <Grid container className="section pb_45">
+          <Grid item className="section_title mb_30" xs={12}>
+            <span></span>
+            <h6 className="section_title_text">Software</h6>
+          </Grid>
+
+          <Grid item xs={12}>
+            <Grid container spacing={3}>
+              {cvData.software.map((software) => (
+                <Grid item xs={12} sm={6} md={3}>
+                  <div className="software">
+                    <Icon className="software_icon">{software.icon}</Icon>
+                    <Typography className="software_title" variant="h6">
+                      {software.title}
+                    </Typography>
+                    <Typography
+                      className="software_description"
+                      variant="body2"
+                    >
+                      {software.experience}
+                    </Typography>
+                  </div>
+                </Grid>
+              ))}
+            </Grid>
+          </Grid>
+        </Grid>
 
         <div className="button_container" style={{ display: "flex" }}>
           <a

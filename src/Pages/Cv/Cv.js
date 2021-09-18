@@ -3,6 +3,8 @@ import { Icon, Grid, Typography, Paper } from "@material-ui/core";
 import WorkIcon from "@material-ui/icons/Work";
 import WorkOutlineIcon from "@material-ui/icons/WorkOutline";
 import SchoolIcon from "@material-ui/icons/School";
+import AdjustIcon from "@material-ui/icons/Adjust";
+
 import {
   Timeline,
   TimelineItem,
@@ -22,32 +24,36 @@ const Cv = () => {
     <>
       {/* About Me */}
       <Grid container className="section pb_45 pt_45">
-        <Grid item className="section_title mb_30" xs={12}>
-          <span></span>
-          <h6 className="section_title_text">About Me</h6>
-        </Grid>
         <Grid item xs={12}>
-          <Typography variant="body2" className="aboutme_text">
-            {cvData.about}
-          </Typography>
+          <CustomTimeline title="About Me" icon={<AdjustIcon />}>
+            <Grid item className="section_title mb_30" xs={12}>
+              <span></span>
+            </Grid>
+
+            <Typography variant="body2" className="aboutme_text">
+              {cvData.about}
+            </Typography>
+          </CustomTimeline>
         </Grid>
       </Grid>
-      {/* Work Experience & Education */}
+
+ 
+
+      {/* Relevant Work & Study Experiences */}
+
       <Grid container className="section">
-        <Grid item className="section_title mb_30" xs={12}>
-          <span></span>
-          {/*           <h6 className="section_title_text"></h6>
-           */}
-        </Grid>
+        <Grid item className="section_title mb_30" xs={12}></Grid>
 
         <Grid item xs={12}>
           <Grid container className="cv_timeline">
             {/* Work Experience */}
-            <Grid item sm={12} md={6}>
-              <CustomTimeline
-                title="Work Experience"
-                icon={<WorkOutlineIcon />}
-              >
+
+            <Grid item>
+              <CustomTimeline title="Experience" icon={<WorkOutlineIcon />}>
+                <Grid item className="section_title mb_30" xs={12}>
+                  <span></span>
+                </Grid>
+
                 {cvData.experiences.map((experience) => (
                   <TimelineItem>
                     <CustomTimelineSeparator />
@@ -75,10 +81,8 @@ const Cv = () => {
 
       {/* Education */}
       <Grid container className="section pb_45 pt_45">
-      
         <Grid item xs={12}>
           <CustomTimeline title="Education" icon={<SchoolIcon />}>
-
             <Grid item className="section_title mb_30" xs={12}>
               <span></span>
             </Grid>
@@ -100,32 +104,6 @@ const Cv = () => {
               </TimelineItem>
             ))}
           </CustomTimeline>
-        </Grid>
-      </Grid>
-
-      {/* Software Proficiency */}
-      <Grid container className="section pb_45">
-        <Grid item className="section_title mb_30" xs={12}>
-          <span></span>
-          <h6 className="section_title_text">Software</h6>
-        </Grid>
-
-        <Grid item xs={12}>
-          <Grid container spacing={3}>
-            {cvData.software.map((software) => (
-              <Grid item xs={12} sm={6} md={3}>
-                <div className="software">
-                  <Icon className="software_icon">{software.icon}</Icon>
-                  <Typography className="software_title" variant="h6">
-                    {software.title}
-                  </Typography>
-                  <Typography className="software_description" variant="body2">
-                    {software.experience}
-                  </Typography>
-                </div>
-              </Grid>
-            ))}
-          </Grid>
         </Grid>
       </Grid>
 
