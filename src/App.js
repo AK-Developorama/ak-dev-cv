@@ -21,7 +21,7 @@ function App() {
 
       
 
-          <Header />
+       
           <div className="main-content">
             <Cv />
           </div>

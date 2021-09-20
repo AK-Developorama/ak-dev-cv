@@ -11,7 +11,28 @@ export default {
   title: "Curriculum vitae",
   phone: "+447397509049",
   email: "aliz.kopenetz@gmail.com",
-  languages: "English, French, German, Romanian, Hungarian",
+  languageSkills: [
+    {
+      name: "English",
+      level: "native",
+    },
+    {
+      name: "German",
+      level: "intermediate",
+    },
+    {
+      name: "French",
+      level: "intermediate",
+    },
+    {
+      name: "Romanian",
+      level: "native",
+    },
+    {
+      name: "Hungarian",
+      level: "native",
+    }
+  ],
   website:
     "https://cdpn.io/developorama/debug/2aa033ef01d99cfb25899bf676524657",
   address: "London, UK",
@@ -145,12 +166,7 @@ export default {
       experience: " 2 years",
       description: "",
     },
-    {
-      icon: <SportsEsportsIcon />,
-      title: "3ds Max",
-      experience: " 9 years",
-      description: "",
-    },
+
     {
       icon: <SportsEsportsIcon />,
       title: "PHOTOSHOP",

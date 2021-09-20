@@ -1,24 +1,24 @@
-/* this is the container box */
+/* container box */
 
-.profile {
-    background-color: var(--main-color);
-
+.profile_container {
+  background-color: var(--main-color);
   width: 100%;
   height: 100%;
 }
 
-.profile_name {
+.profile_info {
   line-height: 18px;
-  padding: 20px;
+  padding: 3vh;
 }
 
 .title_jobrole {
   margin-top: -3vh !important;
+  font-weight: 600 !important;
 }
 
-.profile_name .name {
+.profile_info .name {
   line-height: 1.2 !important;
-  font-size: 2vh !important;
+  font-size: calc(15px + 0.4vw) !important;
   font-weight: 600 !important;
   position: relative;
   margin: 0;
@@ -27,20 +27,7 @@
   letter-spacing: 0.05em !important;
 }
 
-.profile_image img {
-  border-radius: 50% !important;
-  width: 80%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* Information */
-.profile_information {
-  top: 0;
-  left: 0;
-  margin: -40px 10px 30px;
-}
 
 .timelineItem_text {
   color: var(--text-color);

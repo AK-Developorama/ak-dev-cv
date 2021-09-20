@@ -5,12 +5,23 @@
 /* Header title */
 
 .timeline .timeline_header {
-  padding-top: 0.6vh;
-  font-size: 2vh !important;
+  padding-left: 1vh;
+  font-size: calc(12px + 0.2vw) !important;
   font-weight: 600 !important;
-  position: relative !important;
+  position: absolute !important;
+  top: 50%;
   margin: 0 !important;
   color: var(--title-text-color);
+  transform: translate(0, -50%);
+}
+
+.timeline_title {
+  font-weight: 700 !important;
+  padding-left: 1vh;
+}
+
+.timeline_description {
+  margin-top: 1vh !important;
 }
 
 .timeline .timeline_firstItem {
@@ -32,18 +43,18 @@
 .timeline .timeline_dot_header {
   font-size: medium !important;
   padding: 10px !important;
-  background-color: var( --buttonsColor);
+  background-color: var(--buttonsColor);
 }
 
 /* smaller dots */
 
 .timeline .timeline_dot {
-    border-color:  var( --buttonsColor);
-    padding: 2px !important;
+  border-color: var(--buttonsColor);
+  padding: 2px !important;
 }
 
 .timeline .MuiTimelineConnector-root {
-  background-color: var( --connectorsColor);
+  background-color: var(--connectorsColor);
 }
 
 .timeline .timeline_dot_header > .MuiSvgIcon-root {
@@ -57,5 +68,12 @@
 
 .timeline .timeline_content {
   padding-top: 0px !important;
-  margin-bottom: 20px;
+  margin-bottom: 2vh;
+}
+
+/* Timeline Dates */
+.MuiTypography-caption{
+    font-family: "Raleway", sans-serif !important;
+    padding-left: 1vh;
+
 }

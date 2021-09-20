@@ -1,7 +1,20 @@
 /* Margins and Paddings */
 
+.MuiGrid-spacing-xs-7 > .MuiGrid-item,
 .top_60 {
-  margin-top: 10vh !important;
+  margin-bottom: 0.5vh;
+  margin-top: 0.5vh;
+  padding: 1vh !important;
+}
+
+.MuiTimelineContent-root {
+  padding: 0 !important;
+  position: relative;
+}
+
+.MuiGrid-spacing-xs-7 {
+  width: 100% !important;
+  margin: 0 !important;
 }
 
 .top_30 {
@@ -19,11 +32,6 @@
 .p_30 {
   padding: 3vh !important;
 }
-
-
-/* .pt_45 {
-  padding-bottom: 3vh !important;
-} */
 
 .pb_50 {
   padding: 3vh !important;
@@ -87,4 +95,18 @@
   text-transform: uppercase !important;
   position: relative;
   margin: 0;
+}
+
+/* Media Query */
+
+@media (max-width: 991px) {
+  .top_60 {
+    margin-top: 2vh !important;
+  }
+}
+@media (min-width: 1280px) {
+  .MuiContainer-maxWidthLg {
+    max-width: 90% !important;
+    margin: 1vw;
+  }
 }

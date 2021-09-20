@@ -1,17 +1,10 @@
 .aboutme_text {
   line-height: 2.5vh !important;
   white-space: pre-line !important;
+  padding-left: 2vh;
 }
 
-/* work experience */
 
-.timeline_title{
-font-weight: 700!important;
-}
-
-.timeline_description{
-  margin-top: 1vh!important;
-}
 
 /* Software Section */
 

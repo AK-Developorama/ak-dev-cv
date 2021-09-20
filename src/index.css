@@ -36,7 +36,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: whitesmoke !important;
+  background-color: rgb(238, 76, 76) !important;
   color: var(--text-color) !important;
 }
 
@@ -47,6 +47,7 @@ body {
   line-height: 2em !important;
   font-size: 0.875rem !important;
   letter-spacing: 0.11em !important;
+  padding-left: 1vh;
 }
 
 /* Titles: */
@@ -59,11 +60,7 @@ body {
   letter-spacing: 0.11em !important;
 }
 
-.MuiTypography-caption{
-    font-family: "Raleway", sans-serif !important;
 
-
-}
 code {
   font-family: "Raleway", sans-serif !important;
 }
