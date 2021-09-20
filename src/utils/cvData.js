@@ -57,8 +57,11 @@ export default {
       title: "Mhl - Architectural Visualiser",
       date: "2016/10 - Present | London, UK",
       description:
-        "A very interdisciplinary job where among other roles scripted in Max Script - a Python based language that is optimising and automating our 3D software. I automated a very repetitive task cutting our work time by 60%-80%, and simplified our workflow for the in-house 3D model texturing process. Have project manager roles dealing directly with our clients and also taught team-mates skills I had more experience in",
+        "Besides the primary visualiser role learnt Javascript and scripted in Max Script - a Python based languagein order to optimise and automate our 3D software. automated a very repetitive task cutting its compeltion time by 60%-80%, and simplified the workflow for the in-house 3D model texturing process. Have project manager roles dealing directly with our clients and also taught team-mates skills I had more experience in",
     },
+  ],
+
+  workExperience: [
     {
       title: "Kent University - 3D Modelling Teaching Assistant",
       date: "2015 - 2016 | Canterbury, UK",

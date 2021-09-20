@@ -1,8 +1,9 @@
-.header {
+/* .header {
+  display: flex!important;
+  padding: 0 1vh 0 0 !important ;
   background-color: white !important;
-  padding: 0 22px 0 0 !important ;
-  border-radius: 6px !important;
   letter-spacing: 0.11em !important;
+  align-content: flex-end!important;
 }
 
 .header .header_navlink {
@@ -23,21 +24,7 @@
   color: var(--primaryColor) !important;
 }
 
-.header .header_home {
-  background-color: var(--primaryColor);
-  color: var(--main-color);
-  padding: 2vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-top-left-radius: inherit;
-  border-bottom-left-radius: inherit;
-}
 
-.header .header_home:hover {
-  background-color: var(--ternaryColor) !important;
-  color: var(--main-color);
-}
 
 .header .header_left {
   margin-right: auto !important;
@@ -46,7 +33,10 @@
 .header .header_right {
   display: flex !important;
   align-items: center !important;
+ 
 }
+
+
 
 .header .header_right > a > .MuiSvgIcon-root {
   font-size: 3vh !important;
@@ -54,24 +44,51 @@
   color: var(--primaryColor) !important;
 }
 
-/* :hover {
+ :hover {
   color: var(--ternaryColor) !important;
-} */
+} 
 
-.portfolioLink {
-  font-weight: 500 !important;
-  color: var(--title-text-color) !important;
-  padding-left: 0.5rem !important;
-  text-decoration: none;
+
+
+div.navbar-collapse.collapse{
+
+}
+ */
+
+/* wrapper */
+.nav.header.navbar.navbar-expand.navbar-light.sticky-top {
+  display: flex !important;
+  margin: 0 auto !important;
+  align-items: right !important;
+  justify-content: space-between !important;
+  width: 100%;
 }
 
-.portfolioLink:hover {
-  font-weight: 600 !important;
-  color: var(--primaryColor) !important;
+/* navbarContainer */
+
+div.navbar-collapse.collapse {
+  display: flex !important;
+  justify-content: space-between !important;
+  margin: 0 auto !important;
+  width: 90% !important;
+
+  align-items: right!important;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+/* button-wrapper */
+div.header_right {
+  display: flex !important;
+  justify-content: right !important;
+  flex-direction: row !important;
+  align-items: right !important;
 }
 
-.portfolioLink:active,
-.portfolioLink:focus {
-  font-weight: 600 !important;
-  color: var(--primaryColor) !important;
+.MuiButton-text {
+  padding: 1vh 1vh !important;
+}
+
+.navbar-expand {
+  flex-wrap: nowrap !important;
+  justify-content: flex-end !important;
 }

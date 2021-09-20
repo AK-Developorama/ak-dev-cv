@@ -22,10 +22,10 @@ import cvData from "../../utils/cvData";
 const Cv = () => {
   return (
     <>
-      {/* About Me */}
+      {/* Summary*/}
       <Grid container className="section pb_45 pt_45">
         <Grid item xs={12}>
-          <CustomTimeline title="About Me" icon={<AdjustIcon />}>
+          <CustomTimeline title="Summary" icon={<AdjustIcon />}>
             <Grid item className="section_title mb_30" xs={12}>
               <span></span>
             </Grid>
@@ -37,8 +37,6 @@ const Cv = () => {
         </Grid>
       </Grid>
 
- 
-
       {/* Relevant Work & Study Experiences */}
 
       <Grid container className="section">
@@ -46,7 +44,7 @@ const Cv = () => {
 
         <Grid item xs={12}>
           <Grid container className="cv_timeline">
-            {/* Work Experience */}
+            {/*  Experience */}
 
             <Grid item>
               <CustomTimeline title="Experience" icon={<WorkOutlineIcon />}>
@@ -55,6 +53,39 @@ const Cv = () => {
                 </Grid>
 
                 {cvData.experiences.map((experience) => (
+                  <TimelineItem>
+                    <CustomTimelineSeparator />
+                    <TimelineContent className="timeline_content">
+                      <Typography className="timeline_title">
+                        {experience.title}
+                      </Typography>
+                      <Typography variant="caption" className="timeline_date">
+                        {experience.date}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {experience.description}
+                      </Typography>
+                    </TimelineContent>
+                  </TimelineItem>
+                ))}
+              </CustomTimeline>
+            </Grid>
+
+            {/* Other Work Experience */}
+
+            <Grid item>
+              <CustomTimeline
+                title="Other Work Experience"
+                icon={<WorkOutlineIcon />}
+              >
+                <Grid item className="section_title mb_30" xs={12}>
+                  <span></span>
+                </Grid>
+
+                {cvData.workExperience.map((experience) => (
                   <TimelineItem>
                     <CustomTimelineSeparator />
                     <TimelineContent className="timeline_content">
