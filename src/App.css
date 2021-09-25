@@ -1,10 +1,12 @@
-/* Margins and Paddings */
-
+/* margins and paddings */
 .MuiGrid-spacing-xs-7 > .MuiGrid-item,
 .top_60 {
-  margin-bottom: 0.5vh;
-  margin-top: 0.5vh;
+
   padding: 1vh !important;
+}
+
+.MuiTimeline-root {
+  padding: 0 !important;
 }
 
 .MuiTimelineContent-root {
@@ -37,29 +39,24 @@
   padding: 3vh !important;
 }
 
-@media (max-width: 991px) {
-  .top_60 {
-    margin-top: 30px !important;
-  }
-}
-
-/* End of Margins and Paddings */
-
+/* general colour schemes */
 .main-content {
   background-color: var(--main-color);
   min-height: 100vh;
-  padding: 3vh;
+  padding-left: calc(10px + 1vw);
+  padding-right:calc(10px + 1vw);
+  padding-top:calc(10px + 2vw);
+  padding-bottom: 3vh;
 }
 
 .section_title {
   position: relative;
   display: inline-block;
-  padding: 0.5vh 0;
   color: var(--title-text-color);
   text-transform: uppercase;
 }
 
-/* Horizontal Line */
+/* horizontal line */
 .section_title .section_title_text {
   font-size: 2vh !important;
   font-weight: 600;
@@ -77,12 +74,6 @@
   background-color: var(--primaryColor);
 }
 
-.section {
-  /*  padding-left: 3vh;
-  padding-right: 3vh;
- */
-}
-
 .nav-link {
   padding: 0 !important;
   text-transform: uppercase !important;
@@ -97,16 +88,3 @@
   margin: 0;
 }
 
-/* Media Query */
-
-@media (max-width: 991px) {
-  .top_60 {
-    margin-top: 2vh !important;
-  }
-}
-@media (min-width: 1280px) {
-  .MuiContainer-maxWidthLg {
-    max-width: 90% !important;
-    margin: 1vw;
-  }
-}

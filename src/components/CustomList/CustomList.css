@@ -1,0 +1,48 @@
+.listContainer {
+  padding: 0 !important;
+}
+
+div.contactDetails {
+  padding-left: 1vh !important;
+}
+
+/* Header title */
+.listContainer .list_firstItem {
+  min-height: 80px !important;
+}
+
+/*  centered */
+.listContainer .MuiTimelineItem-missingOppositeContent:before {
+  display: none;
+}
+
+.listContainer .listDotHeader {
+  border-color: transparent !important;
+  position: absolute;
+  transform: translate(0, -50%);
+}
+
+/* smaller dots */
+.listContainer .listDot {
+  border-color: var(--buttonsColor);
+  padding: 2px !important;
+}
+
+.listContainer .MuiTimelineConnector-root {
+  background-color: var(--connectorsColor);
+}
+
+.listContainer .listDotHeader > .MuiSvgIcon-root {
+  font-size: 1.5vh;
+  color: var(--main-color);
+}
+
+.listContainer .listSeparatorPadding {
+  padding-left: 2vh !important;
+}
+
+/* Timeline Dates */
+.MuiTypography-caption {
+  font-family: "Raleway", sans-serif !important;
+  padding-left: 1vh;
+}

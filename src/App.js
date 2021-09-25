@@ -12,36 +12,15 @@ function App() {
   return (
     <Container className={"top_60"}>
       <Grid container spacing={7}>
-        <Grid item xs={12} sm={12} md={4} lg={3}>
+        <Grid item xs={12} sm={4} md={4} lg={4}>
           <Profile />
         </Grid>
         <Grid item xs>
-
-        <Router>
-
-      
-
-       
-          <div className="main-content">
-            <Cv />
-          </div>
-
-          </Router>
-
-          {/* <Router>
-            <Header />
+          <Router>
             <div className="main-content">
-              <Switch>
-                <Route path="/">
-                  <Cv />
-                </Route>
-                <Route path="/">
-                  <Cv />
-                </Route>
-              </Switch>
+              <Cv />
             </div>
-          </Router> */}
-
+          </Router>
           <Footer />
         </Grid>
       </Grid>

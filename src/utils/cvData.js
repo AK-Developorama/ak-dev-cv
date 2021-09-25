@@ -4,19 +4,17 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import SportsEsportsIcon from "@material-ui/icons/SportsEsports";
-import { Face } from "@material-ui/icons";
 
 export default {
   name: "Aliz Kopenetz",
   title: "Curriculum vitae",
   phone: "+447397509049",
-  email: "aliz.kopenetz@gmail.com",
+  email: "aliz.kopenetz @ gmail.com",
   languageSkills: [
     {
-      name: "English",
-      level: "native",
+      name: "English (native), German (intermediate), French (intermediate), Romanian (native), Hungarian (native)",
     },
-    {
+    /* {
       name: "German",
       level: "intermediate",
     },
@@ -31,7 +29,7 @@ export default {
     {
       name: "Hungarian",
       level: "native",
-    }
+    }, */
   ],
   website:
     "https://cdpn.io/developorama/debug/2aa033ef01d99cfb25899bf676524657",
@@ -125,57 +123,57 @@ export default {
   software: [
     {
       icon: <SportsEsportsIcon />,
-      title: "HTML",
+      title: "html",
       experience: " 2 years",
       description: "",
     },
     {
       icon: <SportsEsportsIcon />,
-      title: "CSS",
+      title: "css",
       experience: "",
       description: "",
     },
     {
       icon: <SportsEsportsIcon />,
-      title: "JAVASCRIPT",
+      title: "javascript",
       experience: " 2 years",
       description: "",
     },
 
     {
       icon: <SportsEsportsIcon />,
-      title: "REACT",
+      title: "react",
       experience: " 2 years",
       description: "",
     },
     {
       icon: <SportsEsportsIcon />,
-      title: "POSTGRESQL",
+      title: "postgresql",
       experience: " 2 years",
       description: "",
     },
     {
       icon: <SportsEsportsIcon />,
-      title: "DEV TOOLS",
+      title: "dev tools",
       experience: " 2 years",
       description: "",
     },
     {
       icon: <SportsEsportsIcon />,
-      title: "UNREAL ENGINE",
+      title: "unreal engine",
       experience: " 2 years",
       description: "",
     },
 
     {
       icon: <SportsEsportsIcon />,
-      title: "PHOTOSHOP",
+      title: "photoshop",
       experience: " 2 years",
       description: "",
     },
   ],
 
-  skills: [
+  softSkills: [
     {
       title: "scripting",
       experience: " 2 years",
@@ -199,7 +197,7 @@ export default {
       description: ["react", "js", "unreal engine"],
     },
     {
-      title: "SOURCE CONTROL",
+      title: "team work",
       experience: " 2 years",
       description: ["react", "js", "unreal engine"],
     },

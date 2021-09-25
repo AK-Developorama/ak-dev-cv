@@ -2,8 +2,7 @@
   padding: 0 !important;
 }
 
-/* Header title */
-
+/* header titles */
 .timeline .timeline_header {
   padding-left: 1vh;
   font-size: calc(12px + 0.2vw) !important;
@@ -17,25 +16,20 @@
 
 .timeline_title {
   font-weight: 700 !important;
-  padding-left: 1vh;
-}
-
-.timeline_description {
-  margin-top: 1vh !important;
+  padding-left: 1.5em;
+  text-transform: capitalize;
 }
 
 .timeline .timeline_firstItem {
   min-height: 80px !important;
 }
 
-/* This edits the line in the middle and its lenght*/
-
+/* this edits the line in the middle and its lenght*/
 .timeline .MuiTimelineItem-root {
   min-height: 30px !important;
 }
 
-/* Delete this one below if you don't want it centered */
-
+/*  centered */
 .timeline .MuiTimelineItem-missingOppositeContent:before {
   display: none;
 }
@@ -58,12 +52,12 @@
 }
 
 .timeline .timeline_dot_header > .MuiSvgIcon-root {
-  font-size: 20px;
+  font-size: calc(10px + 0.25vw);
   color: var(--main-color);
 }
 
 .timeline .separator_padding {
-  padding-left: 15.5px !important;
+  padding-left: 2vh !important;
 }
 
 .timeline .timeline_content {
@@ -72,8 +66,17 @@
 }
 
 /* Timeline Dates */
-.MuiTypography-caption{
-    font-family: "Raleway", sans-serif !important;
-    padding-left: 1vh;
+.MuiTypography-caption {
+  font-family: "Raleway", sans-serif !important;
+  padding-left: 1.5em !important;
+}
 
+.timelineItem_text {
+  color: var(--text-color);
+  font-weight: 400 !important;
+  text-decoration: none;
+}
+
+.timelineItem_text > span {
+  color: var(--title-text-color);
 }

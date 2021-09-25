@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: space-between;
   min-height: 2vh;
- padding: 2vh 3vh;
+  padding: 2vh 3vh;
 }
 
 .footer .footer_copyright {
@@ -15,11 +15,15 @@
   color: var(--footerText) !important;
 }
 
-.footer .footer_copyright > a {
-    text-decoration: none;
-    color: var( --main-color);
+.footer .footer_copyright > a.footerTextName {
+  text-decoration: none;
+  color: var(--main-color);
 }
 
 .footer .footer.name {
-    font-size: 0.85em;
+  font-size: 0.85em;
+}
+
+a.footerTextName {
+  color: var(--main-color) !important;
 }

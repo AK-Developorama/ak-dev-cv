@@ -1,13 +1,4 @@
-.aboutme_text {
-  line-height: 2.5vh !important;
-  white-space: pre-line !important;
-  padding-left: 2vh;
-}
-
-
-
 /* Software Section */
-
 .software {
   height: 100%;
   text-align: center;
@@ -27,30 +18,8 @@
   margin-left: 0 !important;
   font-weight: 300 !important;
 }
-/* End of Software Section */
 
-/* Skills */
-
-.skill {
-  border-radius: 2vh;
-  padding: 3vh;
-  min-height: 5vh;
-  height: 100%;
+/* experience */
+div.MuiGrid-root.cvContainer.MuiGrid-item {
+  margin-bottom: 3vh!important;
 }
-
-.skill .skill_title {
-/*   line-height: 2vh !important;
- */}
-
-.skill .skill_description {
-  display: flex;
-  align-items: center;
-  line-height: 2vh !important;
-}
-
-.skill .skill_description .timeline_dot {
-  border-color: var(--title-text-color) !important;
-  padding: 0.2vh !important;
-  margin-right: 1vh !important;
-}
-/* End of Skills */

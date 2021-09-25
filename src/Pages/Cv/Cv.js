@@ -33,19 +33,17 @@ const Cv = () => {
       </Grid>
 
       {/* Relevant Work & Study Experiences */}
-
       <Grid container className="section">
         <Grid item className="section_title mb_30" xs={12}></Grid>
 
         <Grid item xs={12}>
           <Grid container className="cv_timeline">
             {/*  Experience */}
-            <Grid item>
+            <Grid className="cvContainer" item>
               <CustomTimeline title="Experience" icon={<CodeIcon />}>
                 <Grid item className="section_title mb_30" xs={12}>
                   <span></span>
                 </Grid>
-
                 {cvData.experiences.map((experience) => (
                   <TimelineItem>
                     <CustomTimelineSeparator />
@@ -69,8 +67,7 @@ const Cv = () => {
             </Grid>
 
             {/* Other Work Experience */}
-
-            <Grid item>
+            <Grid className="cvContainer" item>
               <CustomTimeline
                 title="Other Work Experience"
                 icon={<WorkOutlineIcon />}
@@ -105,7 +102,7 @@ const Cv = () => {
       </Grid>
 
       {/* Education */}
-      <Grid container className="section pb_45 pt_45">
+      <Grid item>
         <Grid item xs={12}>
           <CustomTimeline title="Education" icon={<SchoolIcon />}>
             <Grid item className="section_title mb_30" xs={12}>

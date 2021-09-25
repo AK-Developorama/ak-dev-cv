@@ -1,5 +1,4 @@
 /* Tabs */
-
 .customTabs .customTabs_item {
   padding: 0px !important;
   min-width: 0 !important;
@@ -10,8 +9,8 @@
 .customTabs .active {
     color: var(--main-color)!important;
 }
-/* Cards */
 
+/* Cards */
 .customCard{
     height:100%;
     max-width: 3vh;
@@ -28,11 +27,6 @@ height: 1vh;
 font-weight: 500;
 }
 
-/* 
-
-!important
-
-*/
 
 .customCard .customCard_caption {
 color: brown!important;
@@ -41,7 +35,6 @@ font-weight: 500;
 }
 
 /* Dialog */
-
 .projectDialog{
     display:flex;
     align-items: center;

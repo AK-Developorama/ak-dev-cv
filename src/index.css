@@ -6,7 +6,6 @@
   --main-color: white;
   --title-text-color: #616161;
   --text-color: #888;
-
   --primaryColor: #4e8eb0;
   --footerColor: rgb(91, 172, 216);
   --footerText: rgba(255, 255, 255, 0.575);
@@ -29,15 +28,14 @@ body {
   font-weight: 400 !important;
   line-height: 2em !important;
   letter-spacing: 0.05em !important;
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgb(238, 76, 76) !important;
-  color: var(--text-color) !important;
+  background-color: pink !important;
+  color: var(--title-text-color) !important;
 }
 
 .MuiTypography-body1,
@@ -45,26 +43,47 @@ body {
   font-family: "Raleway", sans-serif !important;
   font-weight: 400 !important;
   line-height: 2em !important;
-  font-size: 0.875rem !important;
+  font-size: calc(5px + 0.8vh) !important;
   letter-spacing: 0.11em !important;
-  padding-left: 1vh;
+  padding-left: 1.5em;
 }
 
-/* Titles: */
+a {
+  text-decoration: none !important;
+  color: var(--title-text-color) !important;
+}
 
+/* titles: */
 .MuiTypography-h6 {
   font-family: "Raleway", sans-serif !important;
-  font-size: 0.7rem !important;
+  font-size: calc(5px + 0.8vh) !important;
   font-weight: 600 !important;
   line-height: 2em !important;
   letter-spacing: 0.11em !important;
 }
 
+/* contact info */
+.MuiTypography-h5 {
+  font-family: "Raleway", sans-serif !important;
+  font-size: calc(5px + 0.8vh) !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.11em !important;
+  padding-left: calc(6px + 4vh);
+}
 
 code {
   font-family: "Raleway", sans-serif !important;
 }
 
+dl,
+ol,
+ul {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-inline-start: 0 !important;
+  padding-left: 0 !important;
+  margin-block-end: 0 !important;
+}
 /* for titles
 
 letter-spacing: 0.11em;
