@@ -7,36 +7,24 @@ import SportsEsportsIcon from "@material-ui/icons/SportsEsports";
 
 export default {
   name: "Aliz Kopenetz",
-  title: "Curriculum vitae",
+  title: "Curriculum Vitae",
   phone: "+447397509049",
-  email: "aliz.kopenetz @ gmail.com",
+  email: "aliz.kopenetz@gmail.com",
   languageSkills: [
     {
-      name: "English (native), German (intermediate), French (intermediate), Romanian (native), Hungarian (native)",
+      name: `English (advanced)
+       German (intermediate)
+       French (intermediate)
+        Romanian (advanced)
+         Hungarian (advanced)`,
     },
-    /* {
-      name: "German",
-      level: "intermediate",
-    },
-    {
-      name: "French",
-      level: "intermediate",
-    },
-    {
-      name: "Romanian",
-      level: "native",
-    },
-    {
-      name: "Hungarian",
-      level: "native",
-    }, */
   ],
   website:
     "https://cdpn.io/developorama/debug/2aa033ef01d99cfb25899bf676524657",
   address: "London, UK",
   socials: {
     GitHub: {
-      link: "https://github.com/AK-developorama?tab=repositories",
+      link: "",
       text: "GitHub",
       icon: <GitHubIcon />,
     },
@@ -51,231 +39,170 @@ export default {
       icon: <TwitterIcon />,
     },
   },
-  about:
-    "Hello! I am a Front End Developer with a strong background in digital product creation, bridging the disciplines of digital architecture, 3D modelling and VR. I am very determined to devote my full passion to Web Development in the coming years, to create smoothly functioning and also visually pleasing web apps.",
+  about: `  ● Self-taught Front-end Web Developer with proven skills in React and Javascript. Coming from a background in digital product creation, scripting and 3D modelling.
+`,
 
   experiences: [
     {
-      title: "Personal Web Development Project",
-      date: "2021/07 - Present",
-      description: "Face Detect App - Using PostgreSQL, API calls to Clarifai",
+      title: "Earthfriend Candles, online candle store",
+
+      date: "2021/05 - (ongoing)",
+
+      description: `● A fully functioning React-based Shopify e-commerce site for a Sheffield client. Uses the Shopify API, Shopify-Buy and EmailJS.        
+        ● Only front-end needed as EmailJS and React-Hook-Form handle the contact form. 
+        ● Products saved to local storage through Shopify-Buy. Chakra UI, Material UI used for styling.`,
+    },
+    /* {
+      title: "Interactive 360° portfolio site",
+
+      date: "2021/08 - (ongoing)",
+
+      description: ` ● React-based website that uses Three.Js and React Three Fiber. 
+        ● Showcases client's 3D modelling work in a way that the visitors can interact with it. 
+        ● Chakra UI used for styling. 
+        ● EmailJS and React-Hook-Form handles the contact form.`,
+    }, */
+    {
+      title: "FaceDetect, Face detection Web application ",
+      date: "2021/07 - 2021/09",
+      description: `● React-based full stack personal project. 
+        ● The user can create an account or log in as a guest. 
+        ● Uses Node.Js with Express.Js for the server and  PostgreSQL for the database. 
+        ● Makes external API calls to Clarifai's Face Detection Model.`,
     },
     {
-      title: "Front End Developer",
-      date: "2020/04 - 2020/08",
-      description:
-        "5 Large Websites: Anna dog training site, Own website, Airbnb clone sent to Shelter charity as a landlord registry competition",
+      title: "CV as a Webpage",
+      date: "2021/11",
+
+      description: `● React-based project hosted on Heroku.     
+        ● Uses Bootstrap and Material UI for styling.  
+       `,
     },
+
+    /*   {
+      title: "Landlord Registry for Shelter Charity (proposal) ",
+      date: "2021/03 - ongoing",
+      description: "Using Firebase hosting",
+    }, */
+
     {
-      title: "Mhl - Interactive Unreal Engine Designer",
+      title: "Architectural Visualiser - Miller Hare",
       date: "2016/10 - Present | London, UK",
-      description:
-        " (no(I)) worked with Unreal Engine to represent architectural projects in Virtual Reality. ",
+      description: `● Used javascript to speed up a very repetitive in-house 3D model texturing process by 70%.  
+        ● Optimised and automated old company workflows by learning Max Script (the scripting language for 3ds Max).`,
     },
+
     {
-      title: "Mhl - Architectural Visualiser",
-      date: "2016/10 - Present | London, UK",
-      description:
-        "Besides the primary visualiser role learnt Javascript and scripted in Max Script - a Python based languagein order to optimise and automate our 3D software. automated a very repetitive task cutting its compeltion time by 60%-80%, and simplified the workflow for the in-house 3D model texturing process. Have project manager roles dealing directly with our clients and also taught team-mates skills I had more experience in",
+      title: "Interactive Unreal Engine Designer - Miller Hare",
+      date: "2016/10 - 2018/10 | London, UK",
+      description: `● Worked with C++ based Unreal Engine to represent architectural projects in Virtual Reality. `,
     },
   ],
 
-  workExperience: [
+   workExperience: [
     {
-      title: "Kent University - 3D Modelling Teaching Assistant",
+      title: "Design Software Teaching Assistant - Kent University ",
       date: "2015 - 2016 | Canterbury, UK",
       description:
-        "Helped students use Photoshop and 3DsMax at an advanced level, showing them scripting possibilities and task automation.",
+        "Through javascript scripting, created automated workflows for 3D modelling software to go beyond their conventional uses among designers. Taught students these features to speed up their work.",
     },
     {
-      title: "CAL Architects",
+      title: "Architectural Assistant - CAL Architects",
       date: "2014 - 2015 | Leeds, UK",
-      description: "My main role was the creation of digital models.",
-    },
-    {
-      title:
-        "Sheffield University - Digital Arts Software Teaching Assistant (part-time)",
-      date: "2011 - 2014 | Sheffield, UK",
       description:
-        "Automated thru scripts Photoshop and 3dsMax going beyond their conventional uses among architects.  Taught others these exciting extra features.",
+        "Created 3D architectural models and made them available on the company's website with Three.Js and Javascript. Voluntarily took on additional web development work to learn new skills.",
     },
   ],
 
   education: [
     {
       title: "Zero To Mastery Academy",
-      date: "2018 - Present | Online",
+      date: "2019 - Present | Online",
       description:
-        "Online coding academy where I learnt the main front end development languages, like JavaScript, HTML and also libraries like React.",
+        "Online coding academy where I learnt front-end development tools, including React.",
     },
     {
-      title: "Kent University",
+      title: "MA Architectural Visualisation - Kent University",
       date: "2015 - 2016 | Canterbury, UK",
-      description: "MA in Architectural Visualisation",
+      description: "Achieved Distinction (ECTS A) ",
     },
     {
-      title: "Sheffield University",
+      title: "BA Architecture - Sheffield University",
       date: "2011 - 2014 | Sheffield, UK",
-      description: "BA in Architecture",
+      description: "Achieved 2.1 (ECTS B)",
     },
   ],
 
   software: [
     {
       icon: <SportsEsportsIcon />,
-      title: "html",
-      experience: " 2 years",
-      description: "",
-    },
-    {
-      icon: <SportsEsportsIcon />,
-      title: "css",
-      experience: "",
-      description: "",
-    },
-    {
-      icon: <SportsEsportsIcon />,
       title: "javascript",
-      experience: " 2 years",
-      description: "",
+    },
+    {
+      icon: <SportsEsportsIcon />,
+      title: "react",
+    },
+    {
+      icon: <SportsEsportsIcon />,
+      title: "html",
+    },
+    {
+      icon: <SportsEsportsIcon />,
+      title: "css, sass",
+    },
+    {
+      icon: <SportsEsportsIcon />,
+      title: "Bootstrap",
+    },
+    {
+      icon: <SportsEsportsIcon />,
+      title: "Material UI, Chakra UI",
     },
 
     {
       icon: <SportsEsportsIcon />,
-      title: "react",
-      experience: " 2 years",
-      description: "",
+      title: "three.js",
     },
     {
       icon: <SportsEsportsIcon />,
       title: "postgresql",
-      experience: " 2 years",
-      description: "",
     },
     {
       icon: <SportsEsportsIcon />,
-      title: "dev tools",
-      experience: " 2 years",
-      description: "",
+      title: "git, github",
     },
     {
       icon: <SportsEsportsIcon />,
-      title: "unreal engine",
-      experience: " 2 years",
-      description: "",
+      title: "JEst, react testing library",
     },
-
     {
       icon: <SportsEsportsIcon />,
-      title: "photoshop",
-      experience: " 2 years",
-      description: "",
+      title: "adobe photoshop, illustrator",
     },
   ],
 
   softSkills: [
     {
-      title: "scripting",
-      experience: " 2 years",
-      description: ["react", "js", "unreal engine"],
+      title: "Communication",
+      description: `● Succesfully persuaded managers to accept my workflow improvements. 
+      ● Taught these new methods to other teams by explaining them in emails or presenting them verbally.
+      ● Explained technical subjects in simple terms in order to share ideas with non-technical colleagues.
+      `,
     },
     {
-      title: "problem solving",
-      experience: " 2 years",
-      description: ["react", "js", "unreal engine"],
+      title: "Collaboration",
+      description: `● Have helped set up in-house organisational tools that divide workload, keep track of timeframes and implement version control.
+      ● Mentored new team members in the use of bespoke software and the companies' best practices.`,
     },
     {
-      title: "automating",
-      experience: " 2 years",
-      description: [
-        "I automated a very long and arguably tedious task for my team using Render Docs and Google Maps ",
-      ],
-    },
+      title: "Analytical Abilities",
+      description: `● Have successfuly identified company workflow trends over time and found the key performance indicators, in our case 3D visulisation image turnover. Realised that by reducing the preparatory work time, we can deliver images to clients 40% faster. 
+      ● Created Photoshop templates for my team to speed up image preparation phase. Wrote several scripts to automate Photoshop tasks.`,
+    },  
     {
-      title: "source control",
-      experience: " 2 years",
-      description: ["react", "js", "unreal engine"],
-    },
-    {
-      title: "team work",
-      experience: " 2 years",
-      description: ["react", "js", "unreal engine"],
-    },
-  ],
-
-  portfolio: [
-    {
-      tag: "pic1",
-      images: [
-        "https://res.cloudinary.com/dwtu8mm8m/image/upload/v1630064085/images/banner_fdc67y.jpg",
-        "https://res.cloudinary.com/dwtu8mm8m/image/upload/v1630251342/logo1_xgidqs.jpg",
-      ],
-      title: "project1",
-      caption: "a descr",
-      description: "blaaalbvlasfdsdfgdgfdgdf",
-      links: [{ link1: "", icon: <FacebookIcon /> }],
-    },
-    {
-      tag: "pic2",
-      images: [
-        "https://res.cloudinary.com/dwtu8mm8m/image/upload/v1630064085/images/banner_fdc67y.jpg",
-        "https://res.cloudinary.com/dwtu8mm8m/image/upload/v1630251342/logo1_xgidqs.jpg",
-      ],
-      title: "project2",
-      caption: "a descr2",
-      description: "blaaalbvlasfdgdgfdfgdgdf",
-      links: [
-        { link1: "https://www.google.co.uk/", icon: <FacebookIcon /> },
-        {
-          link1: "https://github.com/AK-developorama?tab=repositories",
-          icon: <FacebookIcon />,
-        },
-        { link1: "", icon: <FacebookIcon /> },
-      ],
-    },
-    {
-      tag: "pic3",
-      images: [
-        "https://res.cloudinary.com/dwtu8mm8m/image/upload/v1630064085/images/banner_fdc67y.jpg",
-        "https://res.cloudinary.com/dwtu8mm8m/image/upload/v1630251342/logo1_xgidqs.jpg",
-      ],
-      title: "project3",
-      caption: "a descdfdfdfr",
-
-      description: "blaaalbvlasfdsdfgdgfdfdf",
-      links: [
-        { link1: "", icon: <FacebookIcon /> },
-        {
-          link1: "https://github.com/AK-developorama?tab=repositories",
-          icon: <FacebookIcon />,
-        },
-        { link1: "", icon: <FacebookIcon /> },
-      ],
-    },
-    {
-      tag: "pic4",
-      images: [
-        "https://res.cloudinary.com/dwtu8mm8m/image/upload/v1630064085/images/banner_fdc67y.jpg",
-        "https://res.cloudinary.com/dwtu8mm8m/image/upload/v1630251342/logo1_xgidqs.jpg",
-      ],
-      title: "project4",
-      caption: "a descrfdsfsfsf",
-
-      description: "blaaalbvlasfdsdfgdgfdgdf",
-      links: [
-        {
-          link1: "https://github.com/AK-developorama?tab=repositories",
-          icon: <FacebookIcon />,
-        },
-        {
-          link1: "https://github.com/AK-developorama?tab=repositories",
-          icon: <FacebookIcon />,
-        },
-        {
-          link1: "https://github.com/AK-developorama?tab=repositories",
-          icon: <FacebookIcon />,
-        },
-      ],
+      title: "Self-Learner",
+      description: `● The drive to find solutions has lead me down the route of learning new technologies and also new ways of using the existing ones. 
+      ● Avidly following the evolution of developer practices and tools in order to learn and implement them in my work.`,
     },
   ],
 };

@@ -16,11 +16,11 @@ const CustomTimeline = ({ title, icon, children }) => {
     <Timeline className={"timeline"}>
       
       <TimelineItem className={"timeline_firstItem"}>
-        <TimelineSeparator>
+      {/*   <TimelineSeparator> */}
           <TimelineDot className={"timeline_dot_header"}>{icon} </TimelineDot>
 
-          <TimelineConnector />
-        </TimelineSeparator>
+{/*           <TimelineConnector />
+ */}       {/*  </TimelineSeparator> */}
         <TimelineContent>
           <Typography variant="h6" className={"timeline_header"}>
             {title}

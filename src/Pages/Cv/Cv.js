@@ -1,9 +1,8 @@
 import React from "react";
 import { Grid, Typography } from "@material-ui/core";
-import WorkOutlineIcon from "@material-ui/icons/WorkOutline";
-import SchoolIcon from "@material-ui/icons/School";
 import AdjustIcon from "@material-ui/icons/Adjust";
 import CodeIcon from "@material-ui/icons/Code";
+import PeopleOutlineIcon from "@material-ui/icons/PeopleOutline";
 import {
   TimelineItem,
   TimelineContent,
@@ -67,7 +66,7 @@ const Cv = () => {
             </Grid>
 
             {/* Other Work Experience */}
-            <Grid className="cvContainer" item>
+            {/* <Grid className="cvContainer" item>
               <CustomTimeline
                 title="Other Work Experience"
                 icon={<WorkOutlineIcon />}
@@ -96,7 +95,7 @@ const Cv = () => {
                   </TimelineItem>
                 ))}
               </CustomTimeline>
-            </Grid>
+            </Grid> */}
           </Grid>
         </Grid>
       </Grid>
@@ -104,23 +103,19 @@ const Cv = () => {
       {/* Education */}
       <Grid item>
         <Grid item xs={12}>
-          <CustomTimeline title="Education" icon={<SchoolIcon />}>
+          <CustomTimeline title="Soft Skills" icon={<PeopleOutlineIcon />}>
             <Grid item className="section_title mb_30" xs={12}>
               <span></span>
             </Grid>
-
-            {cvData.education.map((education) => (
+            {cvData.softSkills.map((skill) => (
               <TimelineItem>
-                <CustomTimelineSeparator />
                 <TimelineContent className="timeline_content">
                   <Typography className="timeline_title">
-                    {education.title}
+                    {skill.title}
                   </Typography>
-                  <Typography variant="caption" className="timeline_date">
-                    {education.date}
-                  </Typography>
+
                   <Typography variant="body2" className="timeline_description">
-                    {education.description}
+                    {skill.description}
                   </Typography>
                 </TimelineContent>
               </TimelineItem>

@@ -4,6 +4,11 @@ div.button_container {
   margin-bottom: 3vh !important;
 }
 
+.MuiButton-root {
+  min-width: 10px !important;
+  font-size: 0.875rem;
+}
+
 .custom_btn,
 .btn_text {
   position: relative;

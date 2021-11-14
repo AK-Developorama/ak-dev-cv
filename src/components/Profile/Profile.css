@@ -10,23 +10,28 @@
   padding: calc(10px + 1vw);
 }
 
- /* Contact Details  */
+/* Contact Details  */
 div.contactDetails {
   position: relative;
- 
 }
 
-p.MuiTypography-root.listHeader.MuiTypography-body2{
-position: absolute;
-top:50%;
-transform: translate(0, -50%);
+p.MuiTypography-root.softwareTitles.MuiTypography-body1 {
+  font-weight: 700 !important;
+  font-size: calc(5px + 0.7vh) !important ;
+  padding-left: 1.5em;
+  text-transform: uppercase;
 }
 
-ul.MuiTimeline-root.MuiTimeline-alignLeft.listContainer{
-   height: calc(50px + 1vh);
+p.MuiTypography-root.listHeader.MuiTypography-body2 {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+ul.MuiTimeline-root.MuiTimeline-alignLeft.listContainer {
+  height: calc(30px + 3vh);
   width: 100%;
 }
-
 
 /* contact links */
 p.contactLinks {
@@ -42,7 +47,7 @@ p.contactLinks {
   margin-top: -3vh !important;
   font-weight: 600 !important;
   padding: 0px !important;
-  margin-bottom: 6vh!important;
+  margin-bottom: 6vh !important;
 }
 
 .profile_info .name {
@@ -58,6 +63,13 @@ p.contactLinks {
 }
 
 
+/* languages */
+p.MuiTypography-root.softwareTitles.MuiTypography-body1{
+  line-height: 1em !important;
+}
+
+
+
 
 /*  button */
 .profile .button_container {
@@ -67,8 +79,6 @@ p.contactLinks {
   margin-top: 20px;
   padding-left: auto;
 }
-
-
 
 a.downloadCv {
   text-decoration: none;

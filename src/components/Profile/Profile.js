@@ -1,11 +1,10 @@
 import { Typography, Grid, Icon } from "@material-ui/core";
 import React from "react";
 import LaptopChromebookIcon from "@material-ui/icons/LaptopChromebook";
+import SchoolIcon from "@material-ui/icons/School";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import MailIcon from "@material-ui/icons/Mail";
 import PhoneIcon from "@material-ui/icons/Phone";
-import HouseIcon from "@material-ui/icons/House";
-import PeopleOutlineIcon from "@material-ui/icons/PeopleOutline";
 import GTranslateIcon from "@material-ui/icons/GTranslate";
 import CustomButton from "../Button/Button";
 import cvData from "../../utils/cvData";
@@ -35,7 +34,7 @@ const Profile = () => {
         <div className="contactDetails">
           {/* mail */}
           <a
-            href="https://github.com/AK-developorama"
+            href="mailto:aliz.kopenetz@google.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -53,21 +52,7 @@ const Profile = () => {
             ></CustomList>
           </a>
           {/* phone */}
-          <a
-            href="https://github.com/AK-developorama"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
             <CustomList title={cvData.phone} icon={<PhoneIcon />}></CustomList>
-          </a>
-          {/* address */}
-          {/* <a
-            href="https://github.com/AK-developorama"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <CustomList title={cvData.phone} icon={<HouseIcon />}></CustomList>
-          </a> */}
         </div>
 
         {/* Portfolio Button */}
@@ -82,7 +67,7 @@ const Profile = () => {
           </a>
         </div>
 
-        {/* Technical Skills*/}
+        {/* Technical Skills/ SOFTWARE */}
         <Grid container className="section mb_20">
           <Grid item xs={12}>
             <CustomTimeline
@@ -95,10 +80,9 @@ const Profile = () => {
               {cvData.software.map((software) => (
                 <TimelineItem>
                   <TimelineContent className="timeline_content">
-                    <Typography className="timeline_title">
+                    <Typography className="softwareTitles">
                       {software.title}
                     </Typography>
-                    
                   </TimelineContent>
                 </TimelineItem>
               ))}
@@ -106,25 +90,28 @@ const Profile = () => {
           </Grid>
         </Grid>
 
-        {/* Soft Skills */}
+        {/* Education*/}
         <Grid container className="section mb_20">
           <Grid item xs={12}>
-            <CustomTimeline title="Soft Skills" icon={<PeopleOutlineIcon />}>
+            <CustomTimeline title="Education" icon={<SchoolIcon />}>
               <Grid item className="section_title mb_30" xs={12}>
                 <span></span>
               </Grid>
-              {cvData.softSkills.map((skill) => (
+              {cvData.education.map((education) => (
                 <TimelineItem>
+                  <CustomTimelineSeparator />
                   <TimelineContent className="timeline_content">
                     <Typography className="timeline_title">
-                      {skill.title}
+                      {education.title}
                     </Typography>
-
+                    <Typography variant="caption" className="timeline_date">
+                      {education.date}
+                    </Typography>
                     <Typography
                       variant="body2"
                       className="timeline_description"
                     >
-                      {skill.description}
+                      {education.description}
                     </Typography>
                   </TimelineContent>
                 </TimelineItem>
@@ -132,40 +119,16 @@ const Profile = () => {
             </CustomTimeline>
           </Grid>
         </Grid>
-        {/*Languages */}
-        <Grid container className="section mb_20">
-          <Grid item xs={12}>
-            <CustomTimeline title="Languages" icon={<GTranslateIcon />}>
-              <Grid item className="section_title mb_30" xs={12}>
-                <span></span>
-              </Grid>
-              <div className="languageList">
-                {cvData.languageSkills.map((language) => (
-                  <TimelineItem>
-                    <TimelineContent className="timeline_content">
-                      <Typography className="timeline_title">
-                        {language.name}
-                      </Typography>
 
-                      <Typography variant="caption" className="timeline_date">
-                        {language.level}
-                      </Typography>
-                    </TimelineContent>
-                  </TimelineItem>
-                ))}
-              </div>
-            </CustomTimeline>
-          </Grid>
-        </Grid>
         {/* CV Pdf Button */}
         <div className="button_container" style={{ display: "flex" }}>
           <a
             className="downloadCv"
-            href="https://cdpn.io/developorama/debug/2aa033ef01d99cfb25899bf676524657"
+            href="https://res.cloudinary.com/dwtu8mm8m/image/upload/v1636924346/images/1_g4fgix.jpg"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <CustomButton text={"CV as Pdf"} />
+            <CustomButton text={"CV as JPG"} />
           </a>
         </div>
       </div>
