@@ -33,13 +33,7 @@ const Profile = () => {
         {/* Contact Details */}
         <div className="contactDetails">
           {/* mail */}
-          <a
-            href="mailto:aliz.kopenetz@google.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
             <CustomList title={cvData.email} icon={<MailIcon />}></CustomList>
-          </a>
           {/* github */}
           <a
             href="https://github.com/AK-developorama"
