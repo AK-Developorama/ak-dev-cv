@@ -1,12 +1,12 @@
-### Welcome to my CV!
+Welcome to my CV!
 
-# Dependencies:
+Dependencies:
 
 Bootsrap
 
 material UI
 
-# Live site: 
+Live site: 
 
 https://cv-akdev.herokuapp.com/
 
