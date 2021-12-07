@@ -39,7 +39,7 @@ export default {
       icon: <TwitterIcon />,
     },
   },
-  about: `  ● Self-taught Front-end Web Developer with proven skills in React and Javascript. Coming from a background in digital product creation, scripting and 3D modelling.
+  about: `  ● Self-taught Front-End Developer with proven skills in React and Javascript. Coming from a background in digital product creation, scripting and 3D modelling.
 `,
 
   experiences: [
@@ -52,16 +52,7 @@ export default {
         ● Only front-end needed as EmailJS and React-Hook-Form handle the contact form. 
         ● Products saved to local storage through Shopify-Buy. Chakra UI, Material UI used for styling.`,
     },
-    /* {
-      title: "Interactive 360° portfolio site",
 
-      date: "2021/08 - (ongoing)",
-
-      description: ` ● React-based website that uses Three.Js and React Three Fiber. 
-        ● Showcases client's 3D modelling work in a way that the visitors can interact with it. 
-        ● Chakra UI used for styling. 
-        ● EmailJS and React-Hook-Form handles the contact form.`,
-    }, */
     {
       title: "FaceDetect, Face detection Web application ",
       date: "2021/07 - 2021/09",
@@ -79,12 +70,6 @@ export default {
        `,
     },
 
-    /*   {
-      title: "Landlord Registry for Shelter Charity (proposal) ",
-      date: "2021/03 - ongoing",
-      description: "Using Firebase hosting",
-    }, */
-
     {
       title: "Architectural Visualiser - Miller Hare",
       date: "2016/10 - Present | London, UK",
@@ -99,7 +84,7 @@ export default {
     },
   ],
 
-   workExperience: [
+  workExperience: [
     {
       title: "Design Software Teaching Assistant - Kent University ",
       date: "2015 - 2016 | Canterbury, UK",
@@ -116,10 +101,16 @@ export default {
 
   education: [
     {
+      title: "Sky - Get into Tech programme",
+      date: "completion April 2022 | London, UK",
+      description:
+        "Work experience programme run by Sky UK with the aim to equip career changers with the necessary skills to begin a career in technology.",
+    },
+    {
       title: "Zero To Mastery Academy",
       date: "2019 - Present | Online",
       description:
-        "Online coding academy where I learnt front-end development tools, including React.",
+        "Online coding academy where I learnt Front-End Development tools, including React.",
     },
     {
       title: "MA Architectural Visualisation - Kent University",
@@ -198,7 +189,7 @@ export default {
       title: "Analytical Abilities",
       description: `● Have successfuly identified company workflow trends over time and found the key performance indicators, in our case 3D visulisation image turnover. Realised that by reducing the preparatory work time, we can deliver images to clients 40% faster. 
       ● Created Photoshop templates for my team to speed up image preparation phase. Wrote several scripts to automate Photoshop tasks.`,
-    },  
+    },
     {
       title: "Self-Learner",
       description: `● The drive to find solutions has lead me down the route of learning new technologies and also new ways of using the existing ones. 
