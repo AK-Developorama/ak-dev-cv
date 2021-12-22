@@ -101,12 +101,6 @@ export default {
 
   education: [
     {
-      title: "Sky - Get into Tech programme",
-      date: "completion April 2022 | London, UK",
-      description:
-        "Work experience programme run by Sky UK with the aim to equip career changers with the necessary skills to begin a career in technology.",
-    },
-    {
       title: "Zero To Mastery Academy",
       date: "2019 - Present | Online",
       description:
