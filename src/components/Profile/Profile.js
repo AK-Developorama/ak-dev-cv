@@ -33,7 +33,7 @@ const Profile = () => {
         {/* Contact Details */}
         <div className="contactDetails">
           {/* mail */}
-            <CustomList title={cvData.email} icon={<MailIcon />}></CustomList>
+          <CustomList title={cvData.email} icon={<MailIcon />}></CustomList>
           {/* github */}
           <a
             href="https://github.com/AK-developorama"
@@ -46,7 +46,7 @@ const Profile = () => {
             ></CustomList>
           </a>
           {/* phone */}
-            <CustomList title={cvData.phone} icon={<PhoneIcon />}></CustomList>
+          <CustomList title={cvData.phone} icon={<PhoneIcon />}></CustomList>
         </div>
 
         {/* Portfolio Button */}
@@ -118,7 +118,7 @@ const Profile = () => {
         <div className="button_container" style={{ display: "flex" }}>
           <a
             className="downloadCv"
-            href="https://res.cloudinary.com/dwtu8mm8m/image/upload/v1636924346/images/1_g4fgix.jpg"
+            href="https://res.cloudinary.com/dwtu8mm8m/image/upload/v1641910036/AK_CV_apu4ui.jpg"
             target="_blank"
             rel="noopener noreferrer"
           >
