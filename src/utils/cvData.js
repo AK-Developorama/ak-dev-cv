@@ -101,10 +101,16 @@ export default {
 
   education: [
     {
-      title: "Zero To Mastery Academy",
-      date: "2019 - Present | Online",
+      title:
+        "Advanced JavaScript for Websites and Web Applications - University of London",
+      date: "2022/01 - expected completion 2022/03 ",
+      description: "A very comprehensive 10 week course",
+    },
+    {
+      title: "Responsive Website Development and Design - University of London",
+      date: "2021/09 - present ",
       description:
-        "Online coding academy where I learnt Front-End Development tools, including React.",
+        "A very comprehensive foundational short course covering the basics of Front End Development, UX principles and APIs.",
     },
     {
       title: "MA Architectural Visualisation - Kent University",
