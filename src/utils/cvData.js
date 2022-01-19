@@ -39,7 +39,7 @@ export default {
       icon: <TwitterIcon />,
     },
   },
-  about: `  Self-taught Front-End Developer with proven skills in React and Javascript. Coming from a background in digital product creation, scripting and 3D modelling.
+  about: `  Self-taught Front-End Developer with proven skills in React and JavaScript. Coming from a background in digital product creation, scripting and 3D modelling.
 `,
 
   experiences: [
@@ -73,7 +73,7 @@ export default {
     {
       title: "Architectural Visualiser - Miller Hare",
       date: "2016/10 - Present | London, UK",
-      description: `Used Javascript to speed up a very repetitive in-house 3D model texturing process by 40%.  
+      description: `Used JavaScript to speed up a very repetitive in-house 3D model texturing process by 40%.  
         Optimised and automated old company workflows by learning Max Script (the scripting language for 3ds Max).`,
     },
 
@@ -89,17 +89,24 @@ export default {
       title: "Design Software Teaching Assistant - Kent University ",
       date: "2015 - 2016 | Canterbury, UK",
       description:
-        "Through javascript scripting, created automated workflows for 3D modelling software to go beyond their conventional uses among designers. Taught students these features to speed up their work.",
+        "Through JavaScript scripting, created automated workflows for 3D modelling software to go beyond their conventional uses among designers. Taught students these features to speed up their work.",
     },
     {
       title: "Architectural Assistant - CAL Architects",
       date: "2014 - 2015 | Leeds, UK",
       description:
-        "Created 3D architectural models and made them available on the company's website with Three.Js and Javascript. Voluntarily took on additional web development work to learn new skills.",
+        "Created 3D architectural models and made them available on the company's website with Three.Js and JavaScript. Voluntarily took on additional web development work to learn new skills.",
     },
   ],
 
   education: [
+    {
+      title:
+        "BSc in Computer Science - International University of Applied Sciences Berlin",
+      date: "expected completion date 2023 ",
+      description:
+        "Currently enrolled in Computer Science degree, where I am learning among others Java, Phython, Mathematics and agile project management, while also working on hands-on projects and collaborative work.",
+    },
     {
       title: "Responsive Website Development and Design - University of London",
       date: "2021/09 - present ",
@@ -121,7 +128,7 @@ export default {
   software: [
     {
       icon: <SportsEsportsIcon />,
-      title: "javascript",
+      title: "javascript, typescript",
     },
     {
       icon: <SportsEsportsIcon />,
@@ -169,25 +176,25 @@ export default {
   softSkills: [
     {
       title: "Communication",
-      description: `Succesfully persuaded managers to accept my workflow improvements. 
-      Taught these new methods to other teams by explaining them in emails or presenting them verbally.
-      Explained technical subjects in simple terms in order to share ideas with non-technical colleagues.
+      description: `- Succesfully persuaded managers to accept my workflow improvements. 
+      - Taught these new methods to other teams by explaining them in emails or presenting them verbally.
+      - Explained technical subjects in simple terms in order to share ideas with non-technical colleagues.
       `,
     },
     {
       title: "Collaboration",
-      description: `Have helped set up in-house organisational tools that divide workload, keep track of timeframes and implement version control.
-      Mentored new team members in the use of bespoke software and the companies' best practices.`,
+      description: `- Have helped set up in-house organisational tools that divide workload, keep track of timeframes and implement version control.
+      - Mentored new team members in the use of bespoke software and the companies' best practices.`,
     },
     {
       title: "Analytical Abilities",
-      description: `Have successfuly identified company workflow trends over time and found the key performance indicators, in our case 3D visulisation image turnover. Realised that by reducing the preparatory work time, we can deliver images to clients 40% faster. 
-      Created Photoshop templates for my team to speed up image preparation phase. Wrote several scripts to automate Photoshop tasks.`,
+      description: `- Have successfuly identified company workflow trends over time and found the key performance indicators, in our case 3D visulisation image turnover. Realised that by reducing the preparatory work time, we can deliver images to clients 40% faster. 
+      - Created Photoshop templates for my team to speed up image preparation phase. Wrote several scripts to automate Photoshop tasks.`,
     },
     {
       title: "Self-Learner",
-      description: `The drive to find solutions has lead me down the route of learning new technologies and also new ways of using the existing ones. 
-      Avidly following the evolution of developer practices and tools in order to learn and implement them in my work.`,
+      description: `- The drive to find solutions has lead me down the route of learning new technologies and also new ways of using the existing ones. 
+      - Avidly following the evolution of developer practices and tools in order to learn and implement them in my work.`,
     },
   ],
 };
