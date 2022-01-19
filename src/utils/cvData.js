@@ -39,7 +39,8 @@ export default {
       icon: <TwitterIcon />,
     },
   },
-  about: `  Self-taught Front-End Developer with proven skills in React and JavaScript. Coming from a background in digital product creation, scripting and 3D modelling.
+  about: `  - Self-taught Front-End Developer with proven skills in React and JavaScript. 
+  - Coming from a background in digital product creation, scripting and 3D modelling.
 `,
 
   experiences: [
@@ -48,39 +49,38 @@ export default {
 
       date: "2021/05 - (ongoing)",
 
-      description: `A fully functioning React-based Shopify e-commerce site for a Sheffield client. Uses the Shopify API, Shopify-Buy and EmailJS.        
-        Only front-end needed as EmailJS and React-Hook-Form handle the contact form. 
-        Products saved to local storage through Shopify-Buy. Chakra UI, Material UI used for styling.`,
+      description: `- A fully functioning React-based Shopify e-commerce site for a Sheffield client. Uses the Shopify API, Shopify-Buy and EmailJS.        
+        - Only front-end needed as EmailJS and React-Hook-Form handle the contact form. 
+        - Products saved to local storage through Shopify-Buy. Chakra UI, Material UI used for styling.`,
     },
 
     {
       title: "FaceDetect, Face detection Web application ",
       date: "2021/07 - 2021/09",
-      description: `React-based full stack personal project. 
-        The user can create an account or log in as a guest. 
-        Uses Node.Js with Express.Js for the server and  PostgreSQL for the database. 
-        Makes external API calls to Clarifai's Face Detection Model.`,
+      description: `- React-based full stack personal project. 
+        - The user can create an account or log in as a guest. 
+        - Uses Node.Js with Express.Js for the server and  PostgreSQL for the database. 
+        - Makes external API calls to Clarifai's Face Detection Model.`,
     },
     {
       title: "CV as a Webpage",
       date: "2021/11",
 
-      description: `React-based project hosted on Heroku.     
-        Uses Bootstrap and Material UI for styling.  
-       `,
+      description: `- React-based project hosted on Heroku.     
+        - Uses Bootstrap and Material UI for styling.`,
     },
 
     {
       title: "Architectural Visualiser - Miller Hare",
       date: "2016/10 - Present | London, UK",
-      description: `Used JavaScript to speed up a very repetitive in-house 3D model texturing process by 40%.  
-        Optimised and automated old company workflows by learning Max Script (the scripting language for 3ds Max).`,
+      description: `- Used JavaScript to speed up a very repetitive in-house 3D model texturing process by 40%.  
+        - Optimised and automated old company workflows by learning Max Script (the scripting language for 3ds Max).`,
     },
 
     {
       title: "Interactive Unreal Engine Designer - Miller Hare",
       date: "2016/10 - 2018/10 | London, UK",
-      description: `Worked with C++ based Unreal Engine to represent architectural projects in Virtual Reality. `,
+      description: `- Worked with C++ based Unreal Engine to represent architectural projects in Virtual Reality. `,
     },
   ],
 
@@ -89,13 +89,13 @@ export default {
       title: "Design Software Teaching Assistant - Kent University ",
       date: "2015 - 2016 | Canterbury, UK",
       description:
-        "Through JavaScript scripting, created automated workflows for 3D modelling software to go beyond their conventional uses among designers. Taught students these features to speed up their work.",
+        "- Through JavaScript scripting, created automated workflows for 3D modelling software to go beyond their conventional uses among designers. Taught students these features to speed up their work.",
     },
     {
       title: "Architectural Assistant - CAL Architects",
       date: "2014 - 2015 | Leeds, UK",
       description:
-        "Created 3D architectural models and made them available on the company's website with Three.Js and JavaScript. Voluntarily took on additional web development work to learn new skills.",
+        "- Created 3D architectural models and made them available on the company's website with Three.Js and JavaScript. Voluntarily took on additional web development work to learn new skills.",
     },
   ],
 
@@ -104,14 +104,14 @@ export default {
       title:
         "BSc in Computer Science - International University of Applied Sciences Berlin",
       date: "expected completion date 2023 ",
-      description:
-        "Currently enrolled in Computer Science degree, where I am learning among others Java, Phython, Mathematics and agile project management, while also working on hands-on projects and collaborative work.",
+      description: `- Currently enrolled in a Computer Science degree, where modules include among others Java, Phython, Mathematics and Agile project management.
+         - Also working on hands-on projects and collaborative work.`,
     },
     {
       title: "Responsive Website Development and Design - University of London",
       date: "2021/09 - present ",
       description:
-        "A very comprehensive foundational 6 month course covering the main tools of Front End Development, UX principles and APIs.",
+        "A very comprehensive foundational 6-month course, covering the main tools of Front End Development, UX principles and APIs.",
     },
     {
       title: "MA Architectural Visualisation - Kent University",
@@ -136,7 +136,7 @@ export default {
     },
     {
       icon: <SportsEsportsIcon />,
-      title: "html",
+      title: "html, jquery",
     },
     {
       icon: <SportsEsportsIcon />,
@@ -169,7 +169,7 @@ export default {
     },
     {
       icon: <SportsEsportsIcon />,
-      title: "adobe photoshop, illustrator",
+      title: "adobe creative suite",
     },
   ],
 
