@@ -44,5 +44,7 @@ div.contactDetails {
 /* Timeline Dates */
 .MuiTypography-caption {
   font-family: "Raleway", sans-serif !important;
-  padding-left: 1vh;
+  padding-left: 2.6vh !important;
 }
+
+/* 2.6vh for screen */

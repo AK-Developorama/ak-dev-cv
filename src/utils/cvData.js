@@ -39,7 +39,7 @@ export default {
       icon: <TwitterIcon />,
     },
   },
-  about: `  - Self-taught Front-End Developer with proven skills in React and JavaScript. 
+  about: `  - Front-End Developer with proven skills in React and JavaScript. 
   - Coming from a background in digital product creation, scripting and 3D modelling.
 `,
 
@@ -102,26 +102,26 @@ export default {
   education: [
     {
       title:
-        "BSc in Computer Science - International University of Applied Sciences Berlin",
+        "BSc in Computer Science - International University of Applied Sciences (Berlin)",
       date: "expected completion date 2023 ",
-      description: `- Currently enrolled in a Computer Science degree, where modules include among others Java, Phython, Mathematics and Agile project management.
-         - Also working on hands-on projects and collaborative work.`,
+      description: `- Modules include among others Java, Phython, Mathematics and Agile project management.
+         - Also involved in hands-on projects and collaborative work.`,
     },
     {
       title: "Responsive Website Development and Design - University of London",
       date: "2021/09 - present ",
       description:
-        "A very comprehensive foundational 6-month course, covering the main tools of Front End Development, UX principles and APIs.",
+        "- A very comprehensive specialised six month course, covering the main tools of Front End Development, UX principles and APIs.",
     },
     {
       title: "MA Architectural Visualisation - Kent University",
       date: "2015 - 2016 | Canterbury, UK",
-      description: "Achieved Distinction (ECTS A) ",
+      description: "- Achieved Distinction (ECTS A) ",
     },
     {
       title: "BA Architecture - Sheffield University",
       date: "2011 - 2014 | Sheffield, UK",
-      description: "Achieved 2.1 (ECTS B)",
+      description: "- Achieved 2.1 (ECTS B)",
     },
   ],
 
@@ -149,6 +149,10 @@ export default {
     {
       icon: <SportsEsportsIcon />,
       title: "Material UI, Chakra UI",
+    },
+    {
+      icon: <SportsEsportsIcon />,
+      title: "node.js, express.js",
     },
 
     {

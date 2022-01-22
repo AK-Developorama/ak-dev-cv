@@ -15,7 +15,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            AK Developorama
+            Aliz Kopenetz
           </a>
         </Typography>
       </div>

@@ -118,7 +118,7 @@ const Profile = () => {
         <div className="button_container" style={{ display: "flex" }}>
           <a
             className="downloadCv"
-            href="https://res.cloudinary.com/dwtu8mm8m/image/upload/v1641910036/AK_CV_apu4ui.jpg"
+            href="https://res.cloudinary.com/dwtu8mm8m/image/upload/v1642866508/AK_CV_small_mediju.jpg"
             target="_blank"
             rel="noopener noreferrer"
           >

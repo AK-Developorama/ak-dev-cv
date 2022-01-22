@@ -65,12 +65,6 @@
   margin-bottom: 1vh;
 }
 
-/* Timeline Dates */
-.MuiTypography-caption {
-  font-family: "Raleway", sans-serif !important;
-  padding-left: 1.5em !important;
-}
-
 .timelineItem_text {
   color: var(--text-color);
   font-weight: 400 !important;
