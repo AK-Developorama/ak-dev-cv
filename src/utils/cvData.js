@@ -132,7 +132,7 @@ export default {
     },
     {
       icon: <SportsEsportsIcon />,
-      title: "react",
+      title: "react (W3 schools certified)",
     },
     {
       icon: <SportsEsportsIcon />,
