@@ -8,11 +8,11 @@ import SportsEsportsIcon from "@material-ui/icons/SportsEsports";
 export default {
   name: "Aliz Kopenetz",
   title: "Curriculum Vitae",
-  phone: "available on request",
+  phone: "+44 739 750 90 49",
   email: "aliz.kopenetz@gmail.com",
   languageSkills: [
     {
-      name: `English (advanced), German (intermediate), French (intermediate)`,
+      name: `English (advanced), German (intermediate), French (intermediate), Romanian (Fluent), Hungarian (Fluent)`,
     },
   ],
   website:
@@ -176,7 +176,7 @@ export default {
   softSkills: [
     {
       title: "Analytical Abilities",
-      description: `- Have successfuly identified company workflow trends over time and found the key performance indicators, in our case 3D visulisation image turnover. Realised that by reducing the preparatory work time, we can deliver images to clients 40% faster.`,
+      description: `- Have successfully identified company workflow trends over time and found the key performance indicators, in our case 3D visulisation image turnover. Realised that by reducing the preparatory work time, we can deliver images to clients 40% faster.`,
     } /* - Wrote several scripts to automate Photoshop tasks. */,
     {
       title: "Communication",

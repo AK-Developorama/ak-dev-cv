@@ -84,10 +84,3 @@ ul {
   padding-left: 0 !important;
   margin-block-end: 0 !important;
 }
-
-/* change for printing - 625 x 667 c */
-@media screen, print {
-  p.bodyText {
-    font-size: 5pt !important;
-  }
-}

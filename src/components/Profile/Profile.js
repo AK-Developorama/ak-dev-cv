@@ -118,11 +118,11 @@ const Profile = () => {
         <div className="button_container" style={{ display: "flex" }}>
           <a
             className="downloadCv"
-            href="https://res.cloudinary.com/dwtu8mm8m/image/upload/v1642866508/AK_CV_small_mediju.jpg"
+            href="https://drive.google.com/file/d/1R7hdWVfHEsNYsXsDJ9G89kVQQ22vfeKl/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <CustomButton text={"CV as JPG"} />
+            <CustomButton text={"CV as PDF"} />
           </a>
         </div>
       </div>
