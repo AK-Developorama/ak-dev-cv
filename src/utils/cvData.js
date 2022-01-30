@@ -8,15 +8,11 @@ import SportsEsportsIcon from "@material-ui/icons/SportsEsports";
 export default {
   name: "Aliz Kopenetz",
   title: "Curriculum Vitae",
-  phone: "+447397509049",
+  phone: "available on request",
   email: "aliz.kopenetz@gmail.com",
   languageSkills: [
     {
-      name: `English (advanced)
-       German (intermediate)
-       French (intermediate)
-        Romanian (advanced)
-         Hungarian (advanced)`,
+      name: `English (advanced), German (intermediate), French (intermediate)`,
     },
   ],
   website:
@@ -179,22 +175,21 @@ export default {
 
   softSkills: [
     {
+      title: "Analytical Abilities",
+      description: `- Have successfuly identified company workflow trends over time and found the key performance indicators, in our case 3D visulisation image turnover. Realised that by reducing the preparatory work time, we can deliver images to clients 40% faster.`,
+    } /* - Wrote several scripts to automate Photoshop tasks. */,
+    {
       title: "Communication",
       description: `- Succesfully persuaded managers to accept my workflow improvements. 
-      - Taught these new methods to other teams by explaining them in emails or presenting them verbally.
       - Explained technical subjects in simple terms in order to share ideas with non-technical colleagues.
       `,
     },
     {
       title: "Collaboration",
       description: `- Have helped set up in-house organisational tools that divide workload, keep track of timeframes and implement version control.
-      - Mentored new team members in the use of bespoke software and the companies' best practices.`,
+      - Mentored new team members in the use of bespoke software.`,
     },
-    {
-      title: "Analytical Abilities",
-      description: `- Have successfuly identified company workflow trends over time and found the key performance indicators, in our case 3D visulisation image turnover. Realised that by reducing the preparatory work time, we can deliver images to clients 40% faster. 
-      - Created Photoshop templates for my team to speed up image preparation phase. Wrote several scripts to automate Photoshop tasks.`,
-    },
+
     {
       title: "Self-Learner",
       description: `- The drive to find solutions has lead me down the route of learning new technologies and also new ways of using the existing ones. 
