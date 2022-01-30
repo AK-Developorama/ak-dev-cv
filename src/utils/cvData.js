@@ -12,7 +12,7 @@ export default {
   email: "aliz.kopenetz@gmail.com",
   languageSkills: [
     {
-      name: `English (advanced), German (intermediate), French (intermediate), Romanian (Fluent), Hungarian (Fluent)`,
+      name: `English (Fluent), German (intermediate), French (intermediate), Romanian (Fluent), Hungarian (Fluent)`,
     },
   ],
   website:
