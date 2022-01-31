@@ -118,7 +118,7 @@ const Profile = () => {
         <div className="button_container" style={{ display: "flex" }}>
           <a
             className="downloadCv"
-            href="https://drive.google.com/file/d/1R7hdWVfHEsNYsXsDJ9G89kVQQ22vfeKl/view?usp=sharing"
+            href="https://drive.google.com/file/d/1bF7j6nFKjHL50WNs0N_2BpL98vW2WXa9/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
