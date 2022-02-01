@@ -11,7 +11,7 @@ const Footer = () => {
           ©2021 Designed & Developed by{" "}
           <a
             className="footerTextName"
-            href="https://cdpn.io/developorama/debug/2aa033ef01d99cfb25899bf676524657"
+            href="https://github.com/AK-developorama"
             target="_blank"
             rel="noopener noreferrer"
           >
