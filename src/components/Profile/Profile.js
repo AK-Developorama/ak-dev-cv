@@ -53,7 +53,7 @@ const Profile = () => {
         <div className="button_container">
           <a
             className="downloadCv"
-            href="https://cdpn.io/developorama/debug/2aa033ef01d99cfb25899bf676524657"
+            href="https://cdpn.io/pen/debug/dyRyWOv/2aa033ef01d99cfb25899bf676524657"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -118,7 +118,7 @@ const Profile = () => {
         <div className="button_container" style={{ display: "flex" }}>
           <a
             className="downloadCv"
-            href="https://drive.google.com/file/d/1bF7j6nFKjHL50WNs0N_2BpL98vW2WXa9/view?usp=sharing"
+            href="https://drive.google.com/file/d/1iaoESBMZsuyeDKuL1Qk3_F0_uQa9qBzP/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
