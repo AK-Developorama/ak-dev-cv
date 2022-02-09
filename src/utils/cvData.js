@@ -176,7 +176,7 @@ export default {
   softSkills: [
     {
       title: "Analytical Abilities",
-      description: `- Have successfully identified company workflow trends over time and found the key performance indicators, in our case 3D visulisation image turnover. Realised that by reducing the preparatory work time, we can deliver images to clients 40% faster.`,
+      description: `- Have successfully identified company workflow trends over time and found the key performance indicators, in our case 3D visualisation image turnover. Realised that by reducing the preparatory work time, we can deliver images to clients 40% faster.`,
     } /* - Wrote several scripts to automate Photoshop tasks. */,
     {
       title: "Communication",
