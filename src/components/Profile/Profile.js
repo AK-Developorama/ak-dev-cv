@@ -5,6 +5,7 @@ import SchoolIcon from "@material-ui/icons/School";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import MailIcon from "@material-ui/icons/Mail";
 import PhoneIcon from "@material-ui/icons/Phone";
+import Location from "@material-ui/icons/Home";
 import GTranslateIcon from "@material-ui/icons/GTranslate";
 import CustomButton from "../Button/Button";
 import cvData from "../../utils/cvData";
@@ -47,6 +48,8 @@ const Profile = () => {
           </a>
           {/* phone */}
           <CustomList title={cvData.phone} icon={<PhoneIcon />}></CustomList>
+          {/* location */}
+          <CustomList title={cvData.location} icon={<Location />}></CustomList>
         </div>
 
         {/* Portfolio Button */}

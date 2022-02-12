@@ -5,6 +5,7 @@ import CodeIcon from "@material-ui/icons/Code";
 import GTranslateIcon from "@material-ui/icons/GTranslate";
 import PeopleOutlineIcon from "@material-ui/icons/PeopleOutline";
 import { TimelineItem, TimelineContent } from "@material-ui/lab";
+import { Link } from "@material-ui/core";
 import CustomTimeline, {
   CustomTimelineSeparator,
 } from "../../components/Timeline/CustTimeline";
@@ -29,14 +30,14 @@ const Cv = () => {
         </Grid>
       </Grid>
 
-      {/* Relevant Work & Study Experiences */}
+      {/* Relevant Work Experiences */}
       <Grid container className="section">
         <Grid item className="section_title mb_30" xs={12}></Grid>
 
         <Grid item xs={12}>
           <Grid container className="cv_timeline">
-            {/*  Experience */}
             <Grid className="cvContainer" item>
+              {/* Custom Timeline */}
               <CustomTimeline title="Experience" icon={<CodeIcon />}>
                 <Grid item className="section_title mb_30" xs={12}>
                   <span></span>
@@ -45,9 +46,11 @@ const Cv = () => {
                   <TimelineItem>
                     <CustomTimelineSeparator />
                     <TimelineContent className="timeline_content">
-                      <Typography className="timeline_title">
-                        {experience.title}
-                      </Typography>
+                      <Link href={experience.url}>
+                        <Typography className="timeline_title">
+                          {experience.title}
+                        </Typography>
+                      </Link>
                       <Typography variant="caption" className="timeline_date">
                         {experience.date}
                       </Typography>
@@ -56,6 +59,45 @@ const Cv = () => {
                         className="timeline_description"
                       >
                         {experience.description}
+                      </Typography>
+                    </TimelineContent>
+                  </TimelineItem>
+                ))}
+              </CustomTimeline>
+            </Grid>
+          </Grid>
+        </Grid>
+      </Grid>
+
+      {/* Strong Projects */}
+      <Grid container className="section">
+        <Grid item className="section_title mb_30" xs={12}></Grid>
+
+        <Grid item xs={12}>
+          <Grid container className="cv_timeline">
+            <Grid className="cvContainer" item>
+              <CustomTimeline title="Strong Projects" icon={<CodeIcon />}>
+                <Grid item className="section_title mb_30" xs={12}>
+                  <span></span>
+                </Grid>
+                {cvData.projects.map((project) => (
+                  <TimelineItem>
+                    <CustomTimelineSeparator />
+                    <TimelineContent className="timeline_content">
+                      <Link href={project.url}>
+                        <Typography className="timeline_title">
+                          {project.title}
+                        </Typography>
+                      </Link>
+
+                      <Typography variant="caption" className="timeline_date">
+                        {project.date}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className="timeline_description"
+                      >
+                        {project.description}
                       </Typography>
                     </TimelineContent>
                   </TimelineItem>
@@ -93,7 +135,10 @@ const Cv = () => {
       {/* Languages */}
       <Grid item>
         <Grid item xs={12}>
-          <CustomTimeline title="Professional Languages" icon={<GTranslateIcon />}>
+          <CustomTimeline
+            title="Professional Languages"
+            icon={<GTranslateIcon />}
+          >
             <Grid item className="section_title mb_30" xs={12}>
               <span></span>
             </Grid>

@@ -45,6 +45,7 @@ div.contactDetails {
 .MuiTypography-caption {
   font-family: "Raleway", sans-serif !important;
   padding-left: 2.6vh !important;
+  font-weight: 600 !important;
 }
 
-/* 2.6vh for screen */
+/* 2.6vh for s */

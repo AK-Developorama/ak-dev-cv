@@ -5,10 +5,10 @@ import {
   TimelineSeparator,
   TimelineConnector,
   TimelineContent,
-  TimelineDot
+  TimelineDot,
 } from "@material-ui/lab";
-
 import { Typography } from "@material-ui/core";
+
 import "./CustomList.css";
 
 const CustomList = ({ title, icon, children }) => {

@@ -5,29 +5,26 @@ import {
   TimelineSeparator,
   TimelineConnector,
   TimelineContent,
-  TimelineDot
+  TimelineDot,
 } from "@material-ui/lab";
 
 import { Typography } from "@material-ui/core";
+import { Link } from "@material-ui/core";
+
 import "./CustTimeline.css";
 
-const CustomTimeline = ({ title, icon, children }) => {
+const CustomTimeline = ({ title, icon, children, webaddress }) => {
   return (
     <Timeline className={"timeline"}>
-      
       <TimelineItem className={"timeline_firstItem"}>
-      {/*   <TimelineSeparator> */}
-          <TimelineDot className={"timeline_dot_header"}>{icon} </TimelineDot>
-
-{/*           <TimelineConnector />
- */}       {/*  </TimelineSeparator> */}
+        <TimelineDot className={"timeline_dot_header"}>{icon} </TimelineDot>
         <TimelineContent>
           <Typography variant="h6" className={"timeline_header"}>
             {title}
           </Typography>
         </TimelineContent>
       </TimelineItem>
-      {children}
+      <Link href={webaddress}>{children}</Link>
     </Timeline>
   );
 };

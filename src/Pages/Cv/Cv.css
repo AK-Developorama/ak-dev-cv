@@ -21,5 +21,15 @@
 
 /* experience */
 div.MuiGrid-root.cvContainer.MuiGrid-item {
-  margin-bottom: 3vh!important;
+  margin-bottom: 3vh !important;
+}
+
+#root
+  > div
+  > div
+  > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-true
+  > div.main-content
+  > div:nth-child(3)
+  > div.MuiGrid-root.section_title.mb_30.MuiGrid-item.MuiGrid-grid-xs-12 {
+  flex-basis: initial !important;
 }
