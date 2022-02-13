@@ -33,3 +33,25 @@ div.MuiGrid-root.cvContainer.MuiGrid-item {
   > div.MuiGrid-root.section_title.mb_30.MuiGrid-item.MuiGrid-grid-xs-12 {
   flex-basis: initial !important;
 }
+
+/* strong projects */
+
+/* width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box; */
+
+#root
+  > div
+  > div
+  > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-true
+  > div.main-content
+  > div:nth-child(3)
+  > div:nth-child(2)
+  > div
+  > div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}

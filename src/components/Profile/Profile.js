@@ -6,7 +6,6 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import MailIcon from "@material-ui/icons/Mail";
 import PhoneIcon from "@material-ui/icons/Phone";
 import Location from "@material-ui/icons/Home";
-import GTranslateIcon from "@material-ui/icons/GTranslate";
 import CustomButton from "../Button/Button";
 import cvData from "../../utils/cvData";
 
@@ -34,7 +33,13 @@ const Profile = () => {
         {/* Contact Details */}
         <div className="contactDetails">
           {/* mail */}
-          <CustomList title={cvData.email} icon={<MailIcon />}></CustomList>
+          <a
+            href="mailto:aliz.kopenetz@google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <CustomList title={cvData.email} icon={<MailIcon />}></CustomList>
+          </a>
           {/* github */}
           <a
             href="https://github.com/AK-developorama"

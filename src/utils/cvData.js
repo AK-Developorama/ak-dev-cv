@@ -43,11 +43,11 @@ export default {
   experiences: [
     {
       title:
-        "Website Developer and Designer - Earthfriend Candles, online candle store",
+        "Website Developer and Designer - Earthfriend Candles Store (link)",
 
-      date: "2021/05 - Present | Online, Voluntary Work",
+      date: "05/2021 - Present | Online, Voluntary Work",
 
-      description: `- Developed a fully functioning React-based Shopify e-commerce site for a Sheffield client, using Shopify API, Shopify-Buy and EmailJS.        
+      description: `- Currently developing a fully functioning React-based Shopify e-commerce site for a Sheffield client, using Shopify API, Shopify-Buy and EmailJS.        
         - Only front-end needed as EmailJS and React-Hook-Form handle the contact form. 
         - Products saved to local storage through Shopify-Buy. Chakra UI, Material UI used for styling.`,
       url: "https://earthfriend-candles.herokuapp.com",
@@ -55,22 +55,22 @@ export default {
 
     {
       title: "Architectural Visualiser - Miller Hare",
-      date: "2016/10 - Present | London (UK), Full-time",
+      date: "10/2016 - Present | London (UK), Full-time",
       description: `- Used JavaScript to speed up a very repetitive in-house 3D model texturing process by 40%.  
         - Optimised and automated old company workflows by learning Max Script (the scripting language for 3ds Max).`,
     },
 
     {
       title: "Interactive Unreal Engine Designer - Miller Hare",
-      date: "2016/10 - 2018/10 | London (UK), Full-time",
+      date: "10/2016 - 10/2018 | London (UK), Full-time",
       description: `- Worked with C++ based Unreal Engine to represent architectural projects in Virtual Reality.`,
     },
   ],
 
   projects: [
     {
-      title: "'FaceDetect' - Face detection Web application ",
-      date: "2021/07 - 2021/09",
+      title: "'FaceDetect' - Face detection Web application (link)",
+      date: "07/2021 - 09/2021",
       description: `- React-based full stack personal project. 
         - The user can create an account or log in as a guest. 
         - Uses Node.Js with Express.Js for the server and  PostgreSQL for the database. 
@@ -78,8 +78,8 @@ export default {
       url: "https://facedetect--frontend.herokuapp.com/",
     },
     {
-      title: "'Curriculum Vitae'",
-      date: "2021/11",
+      title: "'Curriculum Vitae' (link)",
+      date: "11/2021",
 
       description: `- React-based project hosted on Heroku.     
         - Uses Bootstrap and Material UI for styling.`,
@@ -106,13 +106,13 @@ export default {
     {
       title:
         "BSc in Computer Science - International University of Applied Sciences",
-      date: "completion date 2024 | Berlin, DE + online ",
+      date: "completion date 2024 | Berlin, online ",
       description: `- Modules include among others Java, Phython, Mathematics and Agile project management.
          - Also involved in hands-on projects and collaborative work.`,
     },
     {
       title: "Responsive Website Development and Design - University of London",
-      date: "2021/08 - 2022/02 | online ",
+      date: "08/2021 - 02/2022 | online ",
       description:
         "- A very comprehensive specialised six month course, covering the main tools of Front End Development, UX principles and APIs.",
     },

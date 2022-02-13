@@ -1,11 +1,8 @@
 /* general */
 
-
-
 /* margins and paddings */
 .MuiGrid-spacing-xs-7 > .MuiGrid-item,
 .top_60 {
-
   padding: 1vh !important;
 }
 
@@ -48,14 +45,15 @@
   background-color: var(--main-color);
   min-height: 100vh;
   padding-left: calc(10px + 1vw);
-  padding-right:calc(10px + 1vw);
-  padding-top:calc(10px + 1vw);
+  padding-right: calc(10px + 1vw);
+  padding-top: calc(10px + 1vw);
   padding-bottom: 3vh;
 }
 
 .section_title {
   position: relative;
-  display: inline-block;
+  /*   display: inline-block;
+ */
   color: var(--title-text-color);
   text-transform: uppercase;
 }
@@ -93,5 +91,5 @@
 }
 
 p {
-  white-space: pre-line!important;
+  white-space: pre-line !important;
 }
