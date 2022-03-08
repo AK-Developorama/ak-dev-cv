@@ -1,4 +1,4 @@
-import { Typography, Grid, Icon } from "@material-ui/core";
+import { Typography, Grid } from "@material-ui/core";
 import React from "react";
 import LaptopChromebookIcon from "@material-ui/icons/LaptopChromebook";
 import SchoolIcon from "@material-ui/icons/School";
@@ -9,15 +9,13 @@ import Location from "@material-ui/icons/Home";
 import CustomButton from "../Button/Button";
 import cvData from "../../utils/cvData";
 
-import { TimelineItem, TimelineContent, TimelineDot } from "@material-ui/lab";
+import { TimelineItem, TimelineContent } from "@material-ui/lab";
 
 import CustomTimeline, {
   CustomTimelineSeparator,
 } from "../../components/Timeline/CustTimeline";
 
-import CustomList, {
-  CustomListSeparator,
-} from "../../components/CustomList/CustomList";
+import CustomList from "../../components/CustomList/CustomList";
 
 import "./Profile.css";
 

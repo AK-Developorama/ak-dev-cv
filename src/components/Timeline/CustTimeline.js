@@ -24,7 +24,7 @@ const CustomTimeline = ({ title, icon, children, webaddress }) => {
           </Typography>
         </TimelineContent>
       </TimelineItem>
-      <Link href={webaddress} rel="noopener" rel="noreferrer">
+      <Link href={webaddress} rel="noopener noreferrer">
         {children}
       </Link>
     </Timeline>

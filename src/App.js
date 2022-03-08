@@ -3,7 +3,7 @@ import { Container, Grid } from "@material-ui/core";
 import Profile from "./components/Profile/Profile";
 import Footer from "./components/Footer/Footer";
 import Cv from "./Pages/Cv/Cv";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 
 function App() {

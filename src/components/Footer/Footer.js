@@ -1,6 +1,5 @@
 import React from "react";
 import { Typography } from "@material-ui/core";
-import cvData from "../../utils/cvData";
 import "./Footer.css";
 
 const Footer = () => {
