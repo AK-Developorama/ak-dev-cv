@@ -8,7 +8,7 @@ If you would like to use it too, please get in touch :)
 
 Live site:
 
-https://cv-akdev.herokuapp.com/
+https://cv-akdev.netlify.app/
 
 Dependencies:
 
